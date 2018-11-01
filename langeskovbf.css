@@ -1,1 +1,149 @@
+/* GENERAL TAGS */
 
+body {
+	background-color: white;
+}
+
+a {
+	color: black;
+	text-decoration: none;
+}
+
+a:hover {
+	color: blue;
+	text-decoration: none;
+}
+
+/* HEADER TAGS */
+
+/* ONLY USE ON FRONT PAGE */
+h1 {
+	font-size: 60px;
+	color: black;
+	line-height: 50px;
+}
+
+h2 {
+	font-size: 30px;
+	color: black;
+}
+
+/* HEADER & NAVIGATION */
+
+header {
+	width: 100%;
+	height: 100px;
+	background-color: #FFF;
+	position: absolute; 
+	top: 0;
+	left: 0;
+}
+
+#headerWrap {
+	width: 90%; 
+	margin: 0px auto;
+}
+
+#logo {
+	width: 135px;
+	height: 135px;
+	border-radius: 50%;
+	background-color: #FFF; 
+	position: absolute; 
+	top: 30px;
+	left: 5%;
+}
+
+#logo img {
+	width: 115px;
+	height: 115px;
+	border-radius: 50%;
+	position: relative; 
+	top: 10px;
+	left: 10px;
+}
+
+#navigation {
+	padding: 7px;
+	float: right;
+	position: absolute; 
+	top: 35px;
+	right: 5%;
+}
+
+#navigation ol {
+	padding: 0px;
+	margin: 0px;
+	list-style-type: none; 
+}
+
+#navigation ol li {
+	display: inline;
+	font-family: arial; 
+	font-size: 16px;
+	text-transform: uppercase;
+	margin-right: 25px;
+	color: white;
+}
+
+/* FRONT PAGE PRESENTATION */
+
+.introduction {
+	width: 100%;
+	height: 650px;
+	background-color: black;
+	position: absolute; 
+	top: 100px;
+	left: 0;
+	z-index: -1;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.introductionWrap {
+	width: 90%;
+	margin: 0px auto;
+}
+
+.shortcutButton {
+	font-size: 20px;
+	padding: 10px; 
+	padding-right: 15px;
+	padding-left: 15px;
+	color: black; 
+	float: left;
+	background-color: red;
+	margin-right: 15px;
+	border-radius: 15px;
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+i {
+  border: solid #4BB4AD;
+  border-width: 0 6px 6px 0;
+  border-radius: 2px;
+  display: inline-block;
+  padding: 5px;
+}
+
+.button {
+    background-color: #ffffff;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    border: none;
+    border-radius: 30%;
+    text-decoration: none;
+    display: inline-block;
+    padding:15px;
+    margin: 15px;
+    cursor: pointer;
+    top: 56%;
+    right: 50%;
+    transform: translate(-80%, -80%);
+    position: relative;
+}
+
+.down {
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+}
