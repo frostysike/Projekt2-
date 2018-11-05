@@ -3,8 +3,10 @@
 <head>
 	<meta charset="utf-8"/>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
     <link rel="stylesheet" href="langeskovbf.css">
     <script src="langeskovbf.js"></script>
+    <script src="scrolldown.js"></script>
 <style>
 
 
@@ -13,33 +15,137 @@
 <body>
 
 <header>
-	<div id="headerWrap">
-		<div id="logo">
-			<div id="logoImg"><img src="https://via.placeholder.com/115"></div>
-		</div>
+		<div id="headerWrap">
+			<div id="logo">
+				<a href="index.html"><img src="langeskovlogo.png"></a>
+			</div>
 
-		<div id="navigation">
-			<ol>
-				<li><a href="nyheder.html">Nyheder</a></li>
-				<li><a href="bestyrelse.html">Bestyrelse</a></li>
-				<li><a href="events.html">Events</a></li>
-				<li style="margin-right: 0px;"><a href="kontakt.html">Kontakt</a></li>
-			</ol>
-		</div>
-	</div>		
+			<div id="navigation">
+				<ol>
+					<li><a href="index.html">Forside</a></li>
+					<li><a href="forening.html">Forening <img src="dropdownarrow.gif"></a></li>
+					<li><a href="arrangementer.html">Arrangementer <img src="dropdownarrow.gif"></a></li>
+					<li><a href="blivmedlem.html">Bliv medlem</a></li>
+					<li style="margin-right: 0px;"><a href="kontakt.html">Kontakt</a></li>
+				</ol>
+			</div>
+		</div>		
 </header>
 
 <main>
-	<div class="introduction" style="background-image:url(https://via.placeholder.com/1925x650);">
+	<div class="introduction" style="background: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url(https://images.wallpaperscraft.com/image/road_marking_bridge_123398_1920x1080.jpg);">
+
+	<div style="width:100%; margin:0px auto;">
+
 		<div class="introductionWrap">
 			<h1>Langeskov borgerforening</h1>
-				<div class="shortcutButton">Bliv medlem</div>
-				<div class="shortcutButton" style="margin-right: 0px;">Kræmmermarkedet</div>
-		</div>
-		<button onclick="scrollWin(0,50)" class="button"><i class="down"></i></button>
+				<div id="shortcutButtonWrap">
+					<div class="shortcutButton1" style="width: 200px;">
+						<a href="blivmedlem.html">Bliv medlem</a>
+					</div>
+				<div class="shortcutButton2" style="width: 200px; margin-right: 0px;">
+						<a href="kmarkedet.html">Kræmmermarkedet</a>
+				</div>
+				</div>
+ 	</div>
+	</div>
+	</div>
+
+  	<div class="downArrow bounce" onclick="smoothScroll(document.getElementById('second'))">
+    <img width="50" height="50" alt="" src="dropdownarrow.gif" />
+ 	</div>
 
 	</div>
+
+	<div id="introductionBG"></div>
+
+<div class="content" id="second" style="background-color: #EEF5F7; height: 760px;">
+	<h2>Events for medlemmer</h2>
+
+	<div style="width: 100%; margin: 0px auto;">
+	<div class="threecolumns">
+		<div class="salestag" style="position: relative;">NYHED</div> 
+		<a href="404.html"><img src="foredrag.png"></a>
+		<p>Onsdag d. 31/10/2018</p> 
+		<h3>Foredrag med Carsten Egø Nielsen: Pigerne fra Sprogø</h3>
+		<p style="float:right; font-size: 14px;">Læs mere...</p>
+	</div>
+	<div class="threecolumns">
+		<div class="salestag" style="position: relative;">20%</div> 
+		<a href="404.html"><img src="musical.png"></a>
+		<p>Torsdag d. 15/11 2018</p> 
+		<h3>Musical i Odeon</h3>
+		<p style="float:right; font-size: 14px; margin-top: 35px;">Læs mere...</p>
+	</div>
+	<div class="threecolumns" style="margin-right: 0%; z-index: 3;">
+		<div class="salestag" style="position: relative;">50%</div> 
+		<img src="juleturaarhus.png">
+		<p>Lørdag d. 24/11 2018</p> 
+		<h3>Juletur til Århus</h3>
+		<p style="float:right; font-size: 14px; margin-top: 35px;">Læs mere...</p>
+	</div>
+	</div>
+</div>
+
+<div class="content" style="background-color: #DEECF1; height: 880px;">
+	<h2>Tidligere events</h2>
+
+	<div style="width: 93%; margin: 0px auto; margin-top: 70px;">
+	<div class="twocolumns">
+		<a href="404.html"><img src="djurssommerland.png"></a>
+		<h3>En tur til Djurs sommerland</h3>
+		<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim</p>
+		<p style="float:right; text-align: right; font-size: 14px; padding-right: 5%;">Læs mere...</p>
+	</div>
+	<div class="twocolumns" style="margin-right: 0%;">
+		<a href="404.html"><img src="foredrag2.png"></a>
+		<h3>Et foredrag, men ikke med Carsten Egø Nielsen</h3>
+		<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim </p>
+		<p style="float:right; text-align: right; font-size: 14px;">Læs mere...</p>
+	</div>
+	</div>
+</div>
 </main>
+
+<div id="footerContainer">
+	<table>
+		<tr>
+			<td>Langeskov borgerforening</td>
+			<td>© Copyright. All rights reserved</td>
+			<td style="width: 7%;">Følg os på:</td>
+			<td style="width: 5%;"><a href="facebookside.dk"><img src="facebook.png"></a></td>
+		</tr>
+	</table>
+</div>
+
+<footer>
+	<table>
+		<tr style="font-weight: bold;">
+			<td>Forening</td>
+			<td>Arrangement</td>
+			<td>Bliv medlem</td>
+			<td style="text-align: right;">Kontakt</td>
+		</tr>
+		<tr>
+			<td>Bestyrelse</td>
+			<td>Event</td>
+			<td></td>
+			<td></td>
+		</tr>
+		<tr>
+			<td>Historie</td>
+			<td>Kalender</td>
+			<td></td>
+			<td></td>
+		</tr>
+		<tr>
+			<td></td>
+			<td>Kræmmermarked</td>
+			<td></td>
+			<td></td>
+		</tr>
+	</table>
+</footer>
 
 </body>
 </html>
