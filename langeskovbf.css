@@ -2,73 +2,95 @@
 
 body {
 	background-color: white;
+	font-family: 'Montserrat', sans-serif;
+	font-color: #505050;
+	overflow-x: hidden; 
 }
 
 a {
-	color: black;
 	text-decoration: none;
 }
 
 a:hover {
-	color: blue;
+	opacity: 0.8;
 	text-decoration: none;
 }
 
-/* HEADER TAGS */
+/* HEADER TAGS - ONLY USE H1 ON FRONT PAGES */
 
-/* ONLY USE ON FRONT PAGE */
 h1 {
 	font-size: 60px;
-	color: black;
+	color: #FFF;
 	line-height: 50px;
+	font-family: 'Montserrat', sans-serif;
 }
 
 h2 {
 	font-size: 30px;
-	color: black;
+	color: #505050;
+	font-family: 'Montserrat', sans-serif;
+	text-align: center;
+}
+
+h3 {
+	color: #505050;
+	font-family: 'Montserrat', sans-serif;
+	text-align: left;
+	margin-left: 4%;
+	font-weight: bold;
 }
 
 /* HEADER & NAVIGATION */
 
 header {
 	width: 100%;
-	height: 100px;
-	background-color: #FFF;
+	height: 125px;
+	padding-top: 0px;
+	margin-bottom: 775px;
 	position: absolute; 
 	top: 0;
 	left: 0;
 }
 
+main {
+	margin-top: -15px;
+}
+
 #headerWrap {
 	width: 90%; 
 	margin: 0px auto;
+	background-color: #FFF;
 }
 
 #logo {
-	width: 135px;
-	height: 135px;
-	border-radius: 50%;
-	background-color: #FFF; 
 	position: absolute; 
-	top: 30px;
-	left: 5%;
+	top: 20px;
 }
 
 #logo img {
-	width: 115px;
-	height: 115px;
-	border-radius: 50%;
-	position: relative; 
-	top: 10px;
-	left: 10px;
+	width: 150px;
 }
 
 #navigation {
+	width: 660px;
 	padding: 7px;
 	float: right;
 	position: absolute; 
-	top: 35px;
+	top: 65px;
 	right: 5%;
+}
+
+#navigation a {
+	color: #FFF;
+}
+
+#navigation a:hover {
+	color: #FFF;
+	opacity: 0.8;
+}
+
+#navigation img {
+	width: 15px;
 }
 
 #navigation ol {
@@ -79,71 +101,259 @@ header {
 
 #navigation ol li {
 	display: inline;
-	font-family: arial; 
+	font-family: 'Montserrat', sans-serif;
 	font-size: 16px;
-	text-transform: uppercase;
-	margin-right: 25px;
-	color: white;
+	margin-right: 45px;
+	color: white; 
+}
+
+.dropDownSymbol {
+	width: 10px;
 }
 
 /* FRONT PAGE PRESENTATION */
 
+#introductionBG {
+	height: 900px;
+	width: 100%;
+}
+
 .introduction {
 	width: 100%;
-	height: 650px;
+	height: 1000px;
+	font-color: #FFF;
 	background-color: black;
 	position: absolute; 
-	top: 100px;
 	left: 0;
+	border-collapse: collapse;
+	margin-top: -10px;
 	z-index: -1;
 	display: flex;
 	align-items: center;
 	justify-content: center;
+	text-align: center;
 }
+
 
 .introductionWrap {
-	width: 90%;
+	width: 100%;
 	margin: 0px auto;
+	color: #FFF;
 }
 
-.shortcutButton {
-	font-size: 20px;
+#shortcutButtonWrap {
+	margin: 0px auto;
+	width: 475px;
+	height: 44px;
+	padding: 0px;
+}
+
+.shortcutButton1 /*BLIV MEDLEM*/ {
+	font-size: 16px;
 	padding: 10px; 
 	padding-right: 15px;
 	padding-left: 15px;
-	color: black; 
+	color: #FFF; 
+	background-color: #60A3BC;
 	float: left;
-	background-color: red;
 	margin-right: 15px;
-	border-radius: 15px;
+	border-radius: 10px;
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+	filter: saturate(100%);
+}
+
+.shortcutButton1 a {
+	color: #FFF; 
+}
+
+.shortcutButton2 /*KRÆMMERMARKED*/ {
+	font-size: 16px;
+	padding: 10px; 
+	padding-right: 15px;
+	padding-left: 15px;
+	color: #000;
+	background-color: #FFF; 
+	float: left;
+	margin-right: 15px;
+	border-radius: 10px;
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+	filter: saturate(100%);
+}
+
+.shortcutButton2 a {
+	color: #000; 
+}
+
+.shortcutButton1 a:hover {
+	color: #FFF;
+	filter: saturate(200%);
+}
+
+.shortcutButton2 a:hover {
+	filter: saturate(200%);
+}
+
+/* DOWN ARROW BOUNCER */
+
+.downArrow{
+	z-index: 99;
+	position: relative;
+	top: 880px;
+  	left: 48.5%;
+
+}
+.bounce {
+	-moz-animation: bounce 2s infinite;
+	-webkit-animation: bounce 2s infinite;
+	animation: bounce 2s infinite;
+}
+@-moz-keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+    -moz-transform: translateY(0);
+    transform: translateY(0);
+  }
+  40% {
+    -moz-transform: translateY(-30px);
+    transform: translateY(-30px);
+  }
+  60% {
+    -moz-transform: translateY(-15px);
+    transform: translateY(-15px);
+  }
+}
+
+@-webkit-keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+  40% {
+    -webkit-transform: translateY(-30px);
+    transform: translateY(-30px);
+  }
+  60% {
+    -webkit-transform: translateY(-15px);
+    transform: translateY(-15px);
+  }
+}
+
+/* CONTENT BLOCKS */
+
+.content {
+	width: 87.4%;
+	padding-right: 7%;
+	padding-left: 8%;
+	position: relative;
+	left: -2%;
+	padding-top: 1%;
+	padding-bottom: 2%;
+	margin: 0px auto;
+}
+
+.salestag {
+	width: 80px;
+	height: 35px;
+	border-radius: 50%;
+	background-color: #60A3BC; 
+	text-align: center; 
+	padding-top: 15px;
+	color: #FFF; 
+	font-weight: bold;
+	position: relative; 
+	top: 35px;
+	left: 365px;
+	z-index: 99;
+}
+
+.threecolumns {
+	width: 24.5%;
+	margin-right: 10.2%;
+	padding-right: 2%;
+	float: left;
+	text-align: center;
+}
+
+.threecolumns img {
+	margin: 0px auto; 
+	border-radius: 3%;
 	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
 }
 
-i {
-  border: solid #4BB4AD;
-  border-width: 0 6px 6px 0;
-  border-radius: 2px;
-  display: inline-block;
-  padding: 5px;
+.threecolumns p h3 {
+	padding-right: 10%;
+	padding-left: 10%;
 }
 
-.button {
-    background-color: #ffffff;
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
-    border: none;
-    border-radius: 30%;
-    text-decoration: none;
-    display: inline-block;
-    padding:15px;
-    margin: 15px;
-    cursor: pointer;
-    top: 56%;
-    right: 50%;
-    transform: translate(-80%, -80%);
-    position: relative;
+.twocolumns {
+	width: 42.5%;
+	margin-right: 14.2%;
+	padding-right: -5%;
+	float: left;
+	text-align: left;
 }
 
-.down {
-    transform: rotate(45deg);
-    -webkit-transform: rotate(45deg);
+.twocolumns img {
+	margin: 0px auto; 
+	border-radius: 3%;
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.twocolumns p {
+	width: 653px;
+}
+
+.twocolumns h3 {
+	margin-left: 0px;
+}
+
+/* FOOTER */
+
+#footerContainer {
+	background-color: #60A3BC;
+	width: 88.4%;
+	padding-right: 7%;
+	padding-left: 8%;
+	position: relative;
+	left: -1%;
+	padding-top: 1%;
+	padding-bottom: 2%;
+	margin: 0px auto;
+	height: 20px;
+	color: #FFF;
+	font-weight: bold;
+}
+
+#footerContainer table {
+	width: 100%;
+}
+
+#footerContainer table tr td {
+	vertical-align: middle;
+}
+
+#footerContainer table tr td img {
+	width: 15px;
+}
+
+footer {
+	width: 87.4%;
+	padding-right: 7%;
+	padding-left: 8%;
+	position: relative;
+	left: -1%;
+	padding-top: 1%;
+	padding-bottom: 2%;
+	margin: 0px auto;
+	background-color: #FFF;
+	color: #707070;
+	height: 100px;
+}
+
+footer table {
+	width: 98%;
+}
+
+footer table tr td {
+	width: 39%;
+	padding-right: 10%;
 }
