@@ -9,6 +9,7 @@
 <div class="contact">
 <h1> Henvendelse til borgerforeningen </h1>
 
+<div class="width">
 <div class="form">
   <form id="form" method="post" action="form.php">
     <input name="name" type="text" class="box" placeholder="Navn her:" required>
@@ -20,7 +21,13 @@
     required></textarea>
 <br>
       <input type="submit" class="box1" value="SEND">
-
+<br>
+      <div class="alert">
+        <span class="closbtn" onclick="this.parentElement.style.display='none';">&times;</span>
+        <strong> Besked modtaget! </strong> besvares indenfor 24 timer.
+      </div>
+</div>
+</div>
 </body>
 
 

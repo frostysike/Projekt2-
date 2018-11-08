@@ -70,3 +70,32 @@ input
   background-color: blue;
   cursor:pointer;
 }
+
+
+.width {
+    width: 500px;
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid teal;
+    background-color: #e6ffff;
+}
+
+
+.alert {
+  margin-top: 10px;
+  padding:20px;
+  background-color: green;
+  color: white;
+}
+
+.closbtn {
+  margin-top: 10px;
+  margin-left: 15px;
+  color:white;
+  float: right;
+  font-size: 22px;
+  cursor: pointer;
+  transition: 0.4s;
+
+}
