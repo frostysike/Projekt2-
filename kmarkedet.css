@@ -76,7 +76,7 @@ main {
 	position: absolute;
 	top: 0px;
 	left: 4%;
-	top: 20px;
+	top: 4px;
 	z-index: 5;
 }
 
@@ -86,12 +86,12 @@ main {
 
 
 #navigation {
-	width: 960px;
+	width: 900px;
 	padding: 7px;
 	float: right;
 	position: fixed;
 	top: 65px;
-	right: 5%;
+	right: 2.5%;
 	z-index: 5;
 }
 
@@ -174,7 +174,7 @@ main {
 
 .introduction {
 	width: 100%;
-	height: 1000px;
+	height: 1010px;
 	font-color: #FFF;
 	background-color: black;
 	position: absolute;
@@ -231,10 +231,10 @@ main {
 	margin-top: -10px;
 	margin-right: 15px;
 	border-radius: 10px;
-	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
 	position: relative;
 	z-index: 1;
 }
+
 
 
 .shortcutButton1 a {
@@ -248,13 +248,13 @@ main {
 }
 
 
- .shortcutButton1 /*BLIV MEDLEM*/ {
+ .shortcutButton1 /*BLIV FRIVILLIG*/ {
  	font-size: 16px;
  	padding: 10px;
  	padding-right: 15px;
  	padding-left: 15px;
  	color: #fff;
- 	background-color: red;
+ 	background-color: #BD2B23;
  	float: left;
  	margin-right: 15px;
  	border-radius: 10px;
@@ -271,7 +271,7 @@ main {
  	padding: 10px;
  	padding-right: 15px;
  	padding-left: 15px;
- 	color: #black;
+ 	color: black;
  	background-color: white;
  	float: right;
  	margin-right: 15px;
@@ -285,7 +285,6 @@ main {
  }
 
  .shortcutButton1 a:hover {
- 	color: #FFF;
  	filter: saturate(200%);
  }
 
