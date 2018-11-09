@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="da">
+<head>
+	<meta charset="utf-8"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    <link rel="stylesheet" href="program.css">
+    <script src="langeskovbf.js"></script>
+    <script src="scrolldown.js"></script>
+<style></style>
+        
+</head>
+
+<body>
+    
+    
+<header>
+		<div id="headerWrap">
+			<div id="logo">
+				<a href="kmarkedet.html"><img src="images/kmlogo.png"></a>
+			</div>
+
+			<div id="navigation">
+				<ol>
+					<li><a href="index.html">Forside</a></li>
+					<li><a href="visitors.html">For besøgende <img src="images/dropdownarrow.gif"></a></li>
+					<li><a href="salesmen.html">For kræmmere <img src="images/dropdownarrow.gif"></a></li>
+					<li><a href="frivillige.html">Frivillige</a></li>
+					<li style="margin-right: 0px;"><a href="kontakt.html">Kontakt</a></li>
+				</ol>
+			</div>
+		</div>		
+</header>
+
+<main>
+
+
+
+    
+<!-- Program slideshow-->
+        
+<div class="slideshow-container">
+
+    <div class="mySlides"> 
+        
+<div class=" img-container fade">
+  <div class="text">Fredag d. 21 september</div>
+  <img src="images/21sep.program1.gif" style="width:100%">
+</div>
+
+<div class="img-container fade">
+  <div class="text">Lørdag d. 22 september</div>
+  <img src="images/22sep.program1.gif" style="width:100%">
+</div>
+
+<div class="img-container fade">
+  <div class="text">Søndag d. 23 september</div>
+  <img src="images/23sep.program1.gif" style="width:100%">
+</div>
+   
+    </div>
+        
+        
+<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+<a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+</div>
+
+<div style="text-align:center">
+  <span class="dot" ></span> 
+  <span class="dot" ></span> 
+  <span class="dot" ></span> 
+</div>
+        
+<script>
+
+
+var slideIndex = 1;
+showSlides(slideIndex);
+
+// Next/previous controls
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+// Thumbnail image controls
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("img-container");
+  var dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1} 
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none"; 
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block"; 
+  dots[slideIndex-1].className += " active";
+}
+
+</script>
+</body>
+</html>
