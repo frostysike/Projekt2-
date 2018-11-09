@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="da">
+<head>
+	<meta charset="utf-8"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    <link rel="stylesheet" href="langeskovbf.css">
+    <script src="langeskovbf.js"></script>
+    <script src="scrolldown.js"></script>
+		<script src="javaikkesjovt.js"></script>
+<style>
+
+
+</style>
+</head>
+<body>
+<section>
+</section>
+<header>
+		<div id="headerWrap">
+			<div id="logo">
+				<a href="index.html"><img src="images/langeskovlogo.png"></a>
+			</div>
+
+
+
+			<div id="navigation">
+				<ol>
+
+					<div class="dropdown">
+						<button class="dropbtn">
+					<li><a href="index.html">Forside</a></li>
+
+					<div class="dropdown-content">
+						<a href="#"></a>
+						<a href="#"></a>
+					</div>
+					</div>
+
+					<div class="dropdown">
+						<button class="dropbtn">
+					<li><a href="#" onclick="alert('Denne side virker ikke');">Forening <img src="images/dropdownarrow.gif"></a></li>
+				</button>
+
+				<div class="dropdown-content">
+					<a href="#">Bestyrelsen</a>
+					<a href="#">Historie</a>
+				</div>
+			</div>
+
+			<div class="dropdown">
+				<button class="dropbtn">
+					<li><a href="arrangementer.html">Arrangementer <img src="images/dropdownarrow.gif"></a></li>
+				</button>
+				<div class="dropdown-content">
+					<a href="#">Events</a>
+					<a href="#">Kalender</a>
+
+				</div>
+				</div>
+
+				<div class="dropdown">
+					<button class="dropbtn">
+					<li><a href="blivmedlem.html">Bliv medlem</a></li>
+				</button>
+				<div class="dropdown-content">
+					<a href="#"></a>
+					<a href="#"></a>
+				</div>
+				</div>
+
+				<div class="dropdown">
+					<button class="dropbtn">
+					<li style="margin-right: 0px;"><a href="form.html">Kontakt</a></li>
+				</button>
+				<div class="dropdown-content">
+					<a href="#"></a>
+					<a href="#"></a>
+				</div>
+				</div>
+
+				</ol>
+			</div>
+		</div>
+</header>
+
+<main>
+
+
+<div class="introduction" style="background: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url(images/langbf.jpg); background-size: 2000px 1010px;">
+
+	<div style="width:100%; margin:0px auto;">
+
+
+		<div class="introductionWrap">
+			<h1>Langeskov Borgerforening</h1>
+
+			  <script>
+			    var getBody = document.body;
+
+			    var newElement = document.createElement("p");
+
+			    var date = new Date();
+			    var currentHour = date.getHours();
+
+			    var createTxtMsg;
+
+			    if (currentHour >= 3 && currentHour < 10) {
+			      createTxtMsg ="God morgen";
+			    } else if (currentHour >= 10 && currentHour < 16) {
+			      createTxtMsg ="God eftermiddag" ;
+			    } else if (currentHour >= 16 && currentHour < 22) {
+			      createTxtMsg ="God aften";
+			    } else if (currentHour >= 22 && currentHour < 3) {
+			      createTxtMsg ="God aften :)";
+			    } else {
+			      createTxtMsg ="Der er noget galt med din tidszone";
+			    }
+
+			  var createEleTxt = document.createTextNode(createTxtMsg);
+			  newElement.appendChild(createEleTxt);
+
+			  getBody.appendChild(newElement);
+
+			  newElement.setAttribute("class", "welcome");
+
+			  newElement.style.cssText = "text-align:center; font-size:50px; font-family:'Montserrat';";
+
+			  </script>
+
+
+				<div id="shortcutButtonWrap">
+					<div class="shortcutButton1" style="width: 200px;">
+						<a href="blivmedlem.html">Bliv medlem</a>
+					</div>
+				<div class="shortcutButton2" style="width: 200px; margin-right: 0px;">
+						<a href="kmarkedet.html">Kræmmermarkedet</a>
+				</div>
+				</div>
+ 	</div>
+	</div>
+	</div>
+
+  	<div class="downArrow bounce" onclick="smoothScroll(document.getElementById('second'))">
+    <img width="50" height="50" alt="" src="images/dropdownarrow.gif" />
+ 	</div>
+
+	</div>
+
+	<div id="introductionBG"></div>
+
+<div class="content" id="second" style="background-color: #EEF5F7; height: 760px;">
+	<h2>Events for medlemmer</h2>
+
+
+	<div style="width: 100%; margin: 0px auto;">
+	<div class="threecolumns">
+		<div class="salestag" style="position: relative;">NYHED</div>
+		<a href="404.html"><img src="images/foredrag.png"></a>
+		<p>Onsdag d. 31/10/2018</p>
+		<h3>Foredrag med Carsten Egø Nielsen: Pigerne fra Sprogø</h3>
+		<p style="float:right; font-size: 14px;">Læs mere...</p>
+	</div>
+	<div class="threecolumns">
+		<div class="salestag" style="position: relative;">20%</div>
+		<a href="404.html"><img src="images/musical.png"></a>
+		<p>Torsdag d. 15/11 2018</p>
+		<h3>Musical i Odeon</h3>
+		<p style="float:right; font-size: 14px; margin-top: 35px;">Læs mere...</p>
+	</div>
+	<div class="threecolumns" style="margin-right: 0%; z-index: 3;">
+		<div class="salestag" style="position: relative;">50%</div>
+		<img src="images/juleturaarhus.png">
+		<p>Lørdag d. 24/11 2018</p>
+		<h3>Juletur til Århus</h3>
+		<p style="float:right; font-size: 14px; margin-top: 35px;">Læs mere...</p>
+	</div>
+	</div>
+</div>
+
+<div class="content" style="background-color: #DEECF1; height: 880px;">
+	<h2>Tidligere events</h2>
+
+	<div style="width: 93%; margin: 0px auto; margin-top: 70px;">
+	<div class="twocolumns">
+		<a href="404.html"><img src="images/djurssommerland.png"></a>
+		<h3>En tur til Djurs sommerland</h3>
+		<p>Borgerforeningen forstærker sammenholdet med familieudflugter, i sommeren 2018 blev det til en fantastisk tur, til Djurs Sommerland.</p>
+		<p style="float:right; text-align: right; font-size: 14px; padding-right: 5%;">(hover over billedet, for at se hvad dem der var med mener om turen)</p>
+	</div>
+	<div class="twocolumns" style="margin-right: 0%;">
+		<a href="404.html"><img src="images/foredrag2.png"></a>
+		<h3>Et foredrag, med Carsten Egø Nielsen</h3>
+		<p>For tredje gang på 2 år, var Carsten forbi og gav endnu engang et super foredrag. Der blev fra Borgerforeningen mødt talstærkt op, og der var ikke én tom plads at finde i salen. </p>
+		<p style="float:right; text-align: right; font-size: 14px;">(hover over billedet, for at se hvad medlemmer syntes om foredrag)</p>
+	</div>
+	</div>
+</div>
+</main>
+
+<div id="footerContainer">
+	<table>
+		<tr>
+			<td>Langeskov borgerforening</td>
+			<td>© Copyright. All rights reserved</td>
+			<td style="width: 7%;">Følg os på:</td>
+			<td style="width: 5%;"><a href="facebookside.dk"><img src="images/facebook.png"></a></td>
+		</tr>
+	</table>
+</div>
+
+<footer>
+	<table>
+		<tr style="font-weight: bold;">
+			<td>Forening</td>
+			<td>Arrangement</td>
+			<td>Bliv medlem</td>
+			<td style="text-align: right;">Kontakt</td>
+		</tr>
+		<tr>
+			<td>Bestyrelse</td>
+			<td>Event</td>
+			<td></td>
+			<td></td>
+		</tr>
+		<tr>
+			<td>Historie</td>
+			<td>Kalender</td>
+			<td></td>
+			<td></td>
+		</tr>
+		<tr>
+			<td></td>
+			<td>Kræmmermarked</td>
+			<td></td>
+			<td></td>
+		</tr>
+	</table>
+</footer>
+
+
+<div class="arrow" onclick="smoothScroll(document.getElementById('logo'))">
+<img width="40" height="40" alt="" src="arrowup.svg" />
+</div>
+
+</body>
+</html>
