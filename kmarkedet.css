@@ -236,18 +236,6 @@ main {
 }
 
 
-
-.shortcutButton1 a {
-	color: #FFF;
-	opacity: 1;
-}
-
-.shortcutButton1:hover {
-	color: #FFF;
-	opacity: 0.8;
-}
-
-
  .shortcutButton1 /*BLIV FRIVILLIG*/ {
  	font-size: 16px;
  	padding: 10px;
@@ -314,12 +302,6 @@ main {
 	z-index: 99;
 }
 
-.shortcutButton1:hover {
-	color: #000;
-	opacity: 0.8;
-	z-index: 99;
-	display: block;
-}
 
 #blivfrivillig {
 	background-color: #9FB5BE;
