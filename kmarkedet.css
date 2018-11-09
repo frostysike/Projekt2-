@@ -44,6 +44,12 @@ h3 {
 	font-weight: bold;
 }
 
+h6 {
+	font-size: 30px;
+	color: white;
+	font-family: 'Montserrat', sans-serif;
+	text-align: center;
+}
 /* HEADER & NAVIGATION */
 
 header {
@@ -67,15 +73,11 @@ main {
 }
 
 #logo {
-<<<<<<< HEAD
 	position: absolute;
 	top: 0px;
 	left: 4%;
-=======
-	position: absolute; 
 	top: 20px;
 	z-index: 5;
->>>>>>> 096ee086829dc39849ad4181872d4960dde1e4c3
 }
 
 #logo img {
@@ -84,11 +86,7 @@ main {
 
 
 #navigation {
-<<<<<<< HEAD
-	width: 900px;
-=======
-	width: 700px;
->>>>>>> 096ee086829dc39849ad4181872d4960dde1e4c3
+	width: 960px;
 	padding: 7px;
 	float: right;
 	position: fixed;
@@ -124,7 +122,6 @@ main {
 	font-size: 16px;
 	margin-right: 45px;
 	color: white;
-
 }
 
 .dropDownSymbol {
@@ -196,8 +193,11 @@ main {
 	width: 100%;
 	margin: 0px auto;
 	color: #FFF;
-	z-index: 1;
+
 }
+
+
+
 
 
 #h5 {
@@ -213,11 +213,10 @@ main {
 }
 
 #shortcutButtonWrap {
-	margin: 0px auto;
-    width: 450px;
-    height: 45px;
-    padding: 0px;
-    z-index: 1;
+ margin: 0px auto;
+ width: 475px;
+ height: 44px;
+ padding: 0px;
 }
 
 #shortcutButtonWrap li {
@@ -226,12 +225,8 @@ main {
 	padding: 10px;
 	padding-right: 15px;
 	padding-left: 15px;
-<<<<<<< HEAD
 	color: #FFF;
 	background-color: #B61209;
-=======
-	color: #FFF; 
->>>>>>> 096ee086829dc39849ad4181872d4960dde1e4c3
 	float: left;
 	margin-top: -10px;
 	margin-right: 15px;
@@ -241,7 +236,7 @@ main {
 	z-index: 1;
 }
 
-<<<<<<< HEAD
+
 .shortcutButton1 a {
 	color: #FFF;
 	opacity: 1;
@@ -251,6 +246,53 @@ main {
 	color: #FFF;
 	opacity: 0.8;
 }
+
+
+ .shortcutButton1 /*BLIV MEDLEM*/ {
+ 	font-size: 16px;
+ 	padding: 10px;
+ 	padding-right: 15px;
+ 	padding-left: 15px;
+ 	color: #fff;
+ 	background-color: red;
+ 	float: left;
+ 	margin-right: 15px;
+ 	border-radius: 10px;
+ 	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+ 	filter: saturate(100%);
+ }
+
+ .shortcutButton1 a {
+ 	color: #FFF;
+ }
+
+ .shortcutButton2 /*KRÆMMERMARKED*/ {
+ 	font-size: 16px;
+ 	padding: 10px;
+ 	padding-right: 15px;
+ 	padding-left: 15px;
+ 	color: #black;
+ 	background-color: white;
+ 	float: right;
+ 	margin-right: 15px;
+ 	border-radius: 10px;
+ 	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+ 	filter: saturate(100%);
+ }
+
+ .shortcutButton2 a {
+ 	color: #000;
+ }
+
+ .shortcutButton1 a:hover {
+ 	color: #FFF;
+ 	filter: saturate(200%);
+ }
+
+ .shortcutButton2 a:hover {
+ 	filter: saturate(200%);
+ }
+
 
 .shortcutButton2 /*KRÆMMERMARKED*/ {
 	width: 200px;
@@ -278,9 +320,6 @@ main {
 	opacity: 0.8;
 	z-index: 99;
 	display: block;
-=======
-#shortcutButtonWrap a {
-	color: #FFF;
 }
 
 #blivfrivillig {
@@ -289,7 +328,6 @@ main {
 
 #borgerforening {
 	background-color: #9FB5BE;
->>>>>>> 096ee086829dc39849ad4181872d4960dde1e4c3
 }
 
 /* DOWN ARROW BOUNCER */
@@ -478,7 +516,7 @@ footer table tr td {
 
 
 
-<<<<<<< HEAD
+
 .container {
   width: 100%;
   position: absolute;
@@ -510,13 +548,12 @@ footer table tr td {
   font-size: 20px;
   margin-top: 14px;
 }
-=======
 /* Slideshow container */
 .slideshow-container {
   max-width: 1900px;
   position: relative;
   margin: auto;
-  margin-top: 70px;  
+  margin-top: 70px;
 
 }
 
@@ -562,7 +599,7 @@ footer table tr td {
   padding-left: 110px;
 }
 .row1{
- 
+
   padding-left: 80px;
 }
 
@@ -579,7 +616,7 @@ footer table tr td {
   font-size: 18px;
   transition: 0.6s ease;
 
-    
+
 }
 
 /* Position the "next button" to the right */
@@ -618,13 +655,11 @@ footer table tr td {
 }
 
 @-webkit-keyframes fade {
-  from {opacity: .4} 
+  from {opacity: .4}
   to {opacity: 1}
 }
 
 @keyframes fade {
-  from {opacity: .4} 
+  from {opacity: .4}
   to {opacity: 1}
 }
-
->>>>>>> 096ee086829dc39849ad4181872d4960dde1e4c3
