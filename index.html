@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="langeskovbf.css">
     <script src="langeskovbf.js"></script>
     <script src="scrolldown.js"></script>
+		<script src="javaikkesjovt.js"></script>
 <style>
 
 
@@ -14,32 +15,95 @@
 </head>
 <body>
 <section>
+<<<<<<< HEAD
 	</section
+=======
+</section>
+>>>>>>> 05753990aec83ba24769d2dc9d2786cfe33a6a6d
 <header>
 		<div id="headerWrap">
 			<div id="logo">
 				<a href="index.html"><img src="images/langeskovlogo.png"></a>
 			</div>
 
+
+
 			<div id="navigation">
 				<ol>
+
+					<div class="dropdown">
+						<button class="dropbtn">
 					<li><a href="index.html">Forside</a></li>
-					<li><a href="forening.html">Forening <img src="images/dropdownarrow.gif"></a></li>
+
+					<div class="dropdown-content">
+						<a href="#"></a>
+						<a href="#"></a>
+					</div>
+					</div>
+
+					<div class="dropdown">
+						<button class="dropbtn">
+					<li><a href="#" onclick="alert('Denne side virker ikke');">Forening <img src="images/dropdownarrow.gif"></a></li>
+				</button>
+
+				<div class="dropdown-content">
+					<a href="#">Bestyrelsen</a>
+					<a href="#">Historie</a>
+				</div>
+			</div>
+
+			<div class="dropdown">
+				<button class="dropbtn">
 					<li><a href="arrangementer.html">Arrangementer <img src="images/dropdownarrow.gif"></a></li>
+				</button>
+				<div class="dropdown-content">
+					<a href="#">Events</a>
+					<a href="#">Kalender</a>
+
+				</div>
+				</div>
+
+				<div class="dropdown">
+					<button class="dropbtn">
 					<li><a href="blivmedlem.html">Bliv medlem</a></li>
+				</button>
+				<div class="dropdown-content">
+					<a href="#"></a>
+					<a href="#"></a>
+				</div>
+				</div>
+
+				<div class="dropdown">
+					<button class="dropbtn">
 					<li style="margin-right: 0px;"><a href="form.html">Kontakt</a></li>
+				</button>
+				<div class="dropdown-content">
+					<a href="#"></a>
+					<a href="#"></a>
+				</div>
+				</div>
+
 				</ol>
 			</div>
 		</div>
 </header>
 
 <main>
+<<<<<<< HEAD
 	<div id="introductionBG"></div>
 	<div class="introduction" style="background: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url(https://images.wallpaperscraft.com/image/road_marking_bridge_123398_1920x1080.jpg);">
+=======
+
+
+<div class="introduction" style="background: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url(langbf.jpg);">
+	<div class="introduction" style="background: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)),;">
+>>>>>>> 05753990aec83ba24769d2dc9d2786cfe33a6a6d
 
 	<div style="width:100%; margin:0px auto;">
 
+
 		<div class="introductionWrap">
+<<<<<<< HEAD
 			<h1>Langeskov borgerforening</h1>
 			<div id="shortcutButtonWrap">
 				<ul>
@@ -47,6 +111,52 @@
 					<li id="market"><a href="kmarkedet.html">Kræmmermarked</a></li>
 				</ul>
 			</div>
+=======
+			<h1>Langeskov Borgerforening</h1>
+
+			  <script>
+			    var getBody = document.body;
+
+			    var newElement = document.createElement("p");
+
+			    var date = new Date();
+			    var currentHour = date.getHours();
+
+			    var createTxtMsg;
+
+			    if (currentHour >= 3 && currentHour < 10) {
+			      createTxtMsg ="God morgen";
+			    } else if (currentHour >= 10 && currentHour < 16) {
+			      createTxtMsg ="God eftermiddag" ;
+			    } else if (currentHour >= 16 && currentHour < 22) {
+			      createTxtMsg ="God aften";
+			    } else if (currentHour >= 22 && currentHour < 3) {
+			      createTxtMsg ="God aften :)";
+			    } else {
+			      createTxtMsg ="Der er noget galt med din tidszone";
+			    }
+
+			  var createEleTxt = document.createTextNode(createTxtMsg);
+			  newElement.appendChild(createEleTxt);
+
+			  getBody.appendChild(newElement);
+
+			  newElement.setAttribute("class", "welcome");
+
+			  newElement.style.cssText = "text-align:center; font-size:50px; font-family:'Montserrat';";
+
+			  </script>
+
+
+				<div id="shortcutButtonWrap">
+					<div class="shortcutButton1" style="width: 200px;">
+						<a href="blivmedlem.html">Bliv medlem</a>
+					</div>
+				<div class="shortcutButton2" style="width: 200px; margin-right: 0px;">
+						<a href="kmarkedet.html">Kræmmermarkedet</a>
+				</div>
+				</div>
+>>>>>>> 05753990aec83ba24769d2dc9d2786cfe33a6a6d
  	</div>
 	</div>
 	</div>
@@ -59,6 +169,7 @@
 
 <div class="content" id="second" style="background-color: #EEF5F7; height: 760px;">
 	<h2>Events for medlemmer</h2>
+
 
 	<div style="width: 100%; margin: 0px auto;">
 	<div class="threecolumns">
