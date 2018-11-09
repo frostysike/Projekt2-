@@ -1,0 +1,201 @@
+
+
+ body {
+ margin:0;
+ padding:0;
+ text-align: center;
+ background: linear-gradient(rgba(0,0,50,0.5), rgba(0,0,50,0.5)), url(bf22.jpg);
+ background-size: cover;
+ background-position:center;
+ font-family:sans-serif;
+
+ }
+
+
+.contact
+{
+  padding: 10px;
+  overflow: hidden;
+  margin-top:100px;
+  color:white;
+}
+
+.contact h1{
+  font-size:24px;
+  line-height:5px;
+}
+
+form{
+  margin-top:50px;
+
+}
+
+.box
+{
+  width:450px;
+  top:50%;
+  left:50%;
+  background:transparent;
+  border:none;
+  outline:none;
+  border-bottom:1px solid #2196f3;
+  font-size:20px;
+  margin: 8px 0;
+}
+
+
+.box1 {
+  width:450px;
+  top:50%;
+  left:50%;
+  background:orange;
+  border-color: transparent;
+  color: white;
+  font-size: 20px;
+  font-weight:  bold;
+  height:40px;
+  margin-top:15px;
+
+}
+
+input
+{
+  height:60px;
+
+}
+
+
+.box1:hover
+{
+  background-color: blue;
+  cursor:pointer;
+}
+
+
+.width {
+    width: 500px;
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid teal;
+    background-color: #e6ffff;
+}
+
+
+
+.alert2 {
+
+  margin-top: 10px;
+  padding:20px;
+  background-color: green;
+  color: white;
+
+}
+
+.closbtn {
+  margin-top: 10px;
+  margin-left: 15px;
+  color:white;
+  float: right;
+  font-size: 22px;
+  cursor: pointer;
+  transition: 0.4s;
+
+}
+
+
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content {
+    background-color: #fefefe;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+}
+
+/* The Close Button */
+.close {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.form-control
+{
+
+  width:300px;
+  background:transparent;
+  border:none;
+  outline:none;
+  border-bottom:2px solid white;
+  color: white;
+  font-size:10px;
+  margin-bottom:10px;
+
+}
+
+input
+{
+  height:30px;
+
+}
+
+form .submit
+{
+  background:red;
+  border-color: none;
+  color: white;
+  font-size: 20px;
+  font-weight:  bold;
+  letter-spacing: 2px;
+  height:50px;
+  margin-top:20px;
+  cursor: pointer;
+  text-align: center;
+  padding-top: 10px;
+  border-radius: 5px;
+}
+
+form .submit:hover
+{
+  background-color: #3d92fe;
+  cursor:pointer;
+}
+
+
+
+.column {
+  float: left;
+  width: 50%;
+  padding: 5px;
+}
+
+/* Clear floats after image containers */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
