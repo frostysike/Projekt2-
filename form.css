@@ -82,12 +82,19 @@ input
 }
 
 
+<<<<<<< HEAD
 .alert2 {
+=======
+.alert {
+>>>>>>> 096ee086829dc39849ad4181872d4960dde1e4c3
   margin-top: 10px;
   padding:20px;
   background-color: green;
   color: white;
+<<<<<<< HEAD
 
+=======
+>>>>>>> 096ee086829dc39849ad4181872d4960dde1e4c3
 }
 
 .closbtn {
@@ -98,4 +105,8 @@ input
   font-size: 22px;
   cursor: pointer;
   transition: 0.4s;
+<<<<<<< HEAD
+=======
+
+>>>>>>> 096ee086829dc39849ad4181872d4960dde1e4c3
 }
