@@ -4,16 +4,16 @@
 	<meta charset="utf-8"/>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
-    <link rel="stylesheet" href="kmarkedet.css">
+    <link rel="stylesheet" href="program.css">
     <script src="langeskovbf.js"></script>
     <script src="scrolldown.js"></script>
-<style>
-
-
-</style>
+<style></style>
+        
 </head>
-<body>
 
+<body>
+    
+    
 <header>
 		<div id="headerWrap">
 			<div id="logo">
@@ -36,81 +36,74 @@
 
 
 
-	<div id="introductionBG"></div>
+    
+<!-- Program slideshow-->
+        
+<div class="slideshow-container">
 
-<div class="content" id="second" style="background-color: #D9D9D9; height: 950px;">
-	<img src="https://via.placeholder.com/1650x200" style="position: relative; right: 5px; margin-bottom: 30px; margin-top: 30px;">
-
-	<h2>Om markedet</h2>
-	<div style="width: 93%; margin: 0px auto; margin-top: 70px;">
-	<div class="twocolumns" style="width: 53.5%; margin-right: 0%">
-		<h3>Om Langeskov Kræmmermarked</h3>
-		<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim</p>
-		<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim</p>
-		<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim</p>
-		<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim</p>
-	</div>
-	<div class="twocolumns" style="margin-right: 0%;">
-		<a href="404.html"><img src="http://lokal.danskfolkeparti.dk/pictures_ed/largeclick_langeskov%20kr%C3%A6mmermarked%202015%20033.JPG"></a>
-	</div>
-	</div>
+    <div class="mySlides"> 
+        
+<div class=" img-container fade">
+  <div class="text">Fredag d. 21 september</div>
+  <img src="images/21sep.program1.gif" style="width:100%">
 </div>
 
-<div class="content" id="third" style="background-color: #EDEDED; height: 940px;">
-	<div style="width: 100%; margin: 0px auto; margin-bottom: 50px; margin-top: 50px;">
-	<table>
-		<tr>
-			<td>For besøgende</td>
-			<td>For kræmmere</td>
-			<td style="margin-right: 0%;">For frivillige</td>
-		</tr>
-	</table>
-	</div>
-
-	<img src="https://via.placeholder.com/1650x600" style="position: relative; right: 5px; margin-bottom: 30px; margin-top: 30px;">
+<div class="img-container fade">
+  <div class="text">Lørdag d. 22 september</div>
+  <img src="images/22sep.program1.gif" style="width:100%">
 </div>
 
-</main>
+<div class="img-container fade">
+  <div class="text">Søndag d. 23 september</div>
+  <img src="images/23sep.program1.gif" style="width:100%">
+</div>
+   
+    </div>
+        
+        
+<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+<a class="next" onclick="plusSlides(1)">&#10095;</a>
 
-<div id="footerContainer">
-	<table>
-		<tr>
-			<td>Langeskov borgerforening</td>
-			<td>© Copyright. All rights reserved</td>
-			<td style="width: 7%;">Følg os på:</td>
-			<td style="width: 5%;"><a href="facebookside.dk"><img src="images/facebook.png"></a></td>
-		</tr>
-	</table>
 </div>
 
-<footer>
-	<table>
-		<tr style="font-weight: bold;">
-			<td>For besøgende</td>
-			<td>For kræmmere</td>
-			<td>Frivillige</td>
-			<td style="text-align: right;">Kontakt</td>
-		</tr>
-		<tr>
-			<td>Program</td>
-			<td>Generel information</td>
-			<td>Bliv frivillig</td>
-			<td></td>
-		</tr>
-		<tr>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
-		</tr>
-		<tr>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
-		</tr>
-	</table>
-</footer>
+<div style="text-align:center">
+  <span class="dot" ></span> 
+  <span class="dot" ></span> 
+  <span class="dot" ></span> 
+</div>
+        
+<script>
 
+
+var slideIndex = 1;
+showSlides(slideIndex);
+
+// Next/previous controls
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+// Thumbnail image controls
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("img-container");
+  var dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1} 
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none"; 
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block"; 
+  dots[slideIndex-1].className += " active";
+}
+
+</script>
 </body>
 </html>
