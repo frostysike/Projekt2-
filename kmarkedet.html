@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="kmarkedet.css">
     <script src="langeskovbf.js"></script>
     <script src="scrolldown.js"></script>
+		<script src="cd2.js"></script>
 <style>
 
 
@@ -14,29 +15,84 @@
 </head>
 <body>
 
+<h5 id="cd"></h5>
+
 <header>
 		<div id="headerWrap">
 			<div id="logo">
 				<a href="kmarkedet.html"><img src="images/kmlogo.png"></a>
 			</div>
 
-			<div id="navigation">
-				<ol>
-					<li><a href="index.html">Forside</a></li>
-					<li><a href="visitors.html">For besøgende <img src="images/dropdownarrow.gif"></a></li>
-					<li><a href="salesmen.html">For kræmmere <img src="images/dropdownarrow.gif"></a></li>
-					<li><a href="frivillige.html">Frivillige</a></li>
-					<li style="margin-right: 0px;"><a href="kontakt.html">Kontakt</a></li>
-				</ol>
-			</div>
-		</div>		
+
+						<div id="navigation">
+							<ol>
+
+								<div class="dropdown">
+									<button class="dropbtn">
+								<li><a href="index.html">Forside</a></li>
+
+								<div class="dropdown-content">
+									<a href="#"></a>
+									<a href="#"></a>
+								</div>
+								</div>
+
+								<div class="dropdown">
+									<button class="dropbtn">
+								<li><a href="#" onclick="alert('Denne side virker ikke');">For besøgende <img src="images/dropdownarrow.gif"></a></li>
+							</button>
+
+							<div class="dropdown-content">
+								<a href="#">Generel Info</a>
+								<a href="#">Regler</a>
+							</div>
+						</div>
+
+						<div class="dropdown">
+							<button class="dropbtn">
+								<li><a href="arrangementer.html">For kræmmere<img src="images/dropdownarrow.gif"></a></li>
+							</button>
+							<div class="dropdown-content">
+								<a href="#">Bestil stadeplads</a>
+								<a href="#">Generel info</a>
+
+							</div>
+							</div>
+
+							<div class="dropdown">
+								<button class="dropbtn">
+								<li><a href="blivmedlem.html">Bliv frivllig</a></li>
+							</button>
+							<div class="dropdown-content">
+								<a href="#"></a>
+								<a href="#"></a>
+							</div>
+							</div>
+
+							<div class="dropdown">
+								<button class="dropbtn">
+								<li style="margin-right: 0px;"><a href="form.html">Kontakt</a></li>
+							</button>
+							<div class="dropdown-content">
+								<a href="#"></a>
+								<a href="#"></a>
+							</div>
+							</div>
+
+							</ol>
+						</div>
+					</div>
 </header>
+
 
 <main>
 	<div class="introduction" style="background: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url(http://langeskovborgerforening.dk/kraemmermarked/img/slides/7.jpg);">
 
 	<div style="width:100%; margin:0px auto;">
 
+
+
+<p id="cd"></p>
 		<div class="introductionWrap">
 			<h1>Langeskov Kræmmermarked</h1>
 			<h4>D. 21.-23. september 2019</h4>
@@ -46,7 +102,7 @@
 					</div>
 				<div class="shortcutButton2" style="margin-right: 0px;">
 					<a href="index.html">Borgerforening</a></div>
-				
+
 				</div>
  	</div>
 	</div>
@@ -57,6 +113,9 @@
  	</div>
 
 	</div>
+
+
+
 
 	<div id="introductionBG"></div>
 
@@ -82,9 +141,11 @@
 	<div style="width: 100%; margin: 0px auto; margin-bottom: 50px; margin-top: 50px;">
 	<table>
 		<tr>
-			<td>For besøgende</td>
+
+			<td>For besøgende<img src=""</td>
 			<td>For kræmmere</td>
 			<td style="margin-right: 0%;">For frivillige</td>
+
 		</tr>
 	</table>
 	</div>
@@ -136,4 +197,3 @@
 
 </body>
 </html>
-

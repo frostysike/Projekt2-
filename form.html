@@ -2,6 +2,7 @@
 <head>
 <title> Form </title>
 <link rel="stylesheet" type="text/css" href="form.css">
+<script src="form2.js"></script>
 </head>
 
 <body>
@@ -9,19 +10,23 @@
 <div class="contact">
 <h1> Henvendelse til borgerforeningen </h1>
 
+<div class="width">
 <div class="form">
-  <form id="form" method="post" action="form.php">
-    <input name="name" type="text" class="form-control" placeholder="Dit navn her" required>
+  <form id="form" method="post" action="form2.html">
+    <input name="name" type="text" class="box" placeholder="Navn her:" required>
     <br>
-    <input name="Email" type="Email" class="form-control" placeholder="Email:" required>
+    <input name="Email" type="Email" class="box" placeholder="Email:" required>
     <br>
-
-      <textarea name="message" class="form-control" placeholder="Skriv din beskedtil Langeskov Borgerforening her.
-      (beskeder til Kræmmermarked frabedes)" row="5"
-      required></textarea>
+    <textarea name="message" class="box" placeholder="besked:
+(beskeder til Kræmmermarked frabedes)" row="5"
+    required></textarea>
 <br>
-      <input type="submit" class="form-control submit" value="SEND">
+      <input type="submit" class="box1" value="SEND">
+<br>
 
+    
+</div>
+</div>
 </body>
 
 

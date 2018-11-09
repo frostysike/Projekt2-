@@ -1,9 +1,10 @@
 
+
  body {
  margin:0;
  padding:0;
  text-align: center;
- background: linear-gradient(rgba(0,0,50,0.5), rgba(0,0,50,0.5)), url(markets.jpg);
+ background: linear-gradient(rgba(0,0,50,0.5), rgba(0,0,50,0.5)), url(bf22.jpg);
  background-size: cover;
  background-position:center;
  font-family:sans-serif;
@@ -13,60 +14,88 @@
 
 .contact
 {
+  padding: 10px;
+  overflow: hidden;
   margin-top:100px;
-  color:#fff;
-  text-transform:uppercase;
-  transition:all 4s ease-in-out;
+  color:white;
 }
-
 
 .contact h1{
   font-size:24px;
   line-height:5px;
 }
 
-.contact h2 {
-  font-size:24px;
-}
-
 form{
   margin-top:50px;
-  transition: all 4s ease-in-out;
+
 }
 
-.form-control
+.box
 {
-  width:500px;
+  width:450px;
+  top:50%;
+  left:50%;
   background:transparent;
   border:none;
   outline:none;
-  border-bottom:2px solid white;
-  color: white;
-  font-size:16px;
-  margin-bottom:16px;
-
+  border-bottom:1px solid #2196f3;
+  font-size:20px;
+  margin: 8px 0;
 }
 
-input
-{
-  height:40px;
 
-}
-
-form .submit
-{
+.box1 {
+  width:450px;
+  top:50%;
+  left:50%;
   background:orange;
   border-color: transparent;
   color: white;
   font-size: 20px;
   font-weight:  bold;
-  letter-spacing: 2px;
-  height:50px;
-  margin-top:20px;
+  height:40px;
+  margin-top:15px;
+
 }
 
-form .submit:hover
+input
+{
+  height:60px;
+
+}
+
+
+.box1:hover
 {
   background-color: blue;
   cursor:pointer;
+}
+
+
+.width {
+    width: 500px;
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid teal;
+    background-color: #e6ffff;
+}
+
+
+.alert2 {
+  margin-top: 10px;
+  padding:20px;
+  background-color: green;
+  color: white;
+
+}
+
+.closbtn {
+  margin-top: 10px;
+  margin-left: 15px;
+  color:white;
+  float: right;
+  font-size: 22px;
+  cursor: pointer;
+  transition: 0.4s;
 }
