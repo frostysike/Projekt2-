@@ -13,7 +13,8 @@
 </style>
 </head>
 <body>
-
+<section>
+	</section
 <header>
 		<div id="headerWrap">
 			<div id="logo">
@@ -29,24 +30,23 @@
 					<li style="margin-right: 0px;"><a href="form.html">Kontakt</a></li>
 				</ol>
 			</div>
-		</div>		
+		</div>
 </header>
 
 <main>
+	<div id="introductionBG"></div>
 	<div class="introduction" style="background: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url(https://images.wallpaperscraft.com/image/road_marking_bridge_123398_1920x1080.jpg);">
 
 	<div style="width:100%; margin:0px auto;">
 
 		<div class="introductionWrap">
 			<h1>Langeskov borgerforening</h1>
-				<div id="shortcutButtonWrap">
-					<div class="shortcutButton1" style="width: 200px;">
-						<a href="blivmedlem.html">Bliv medlem</a>
-					</div>
-				<div class="shortcutButton2" style="width: 200px; margin-right: 0px;">
-						<a href="kmarkedet.html">Kræmmermarkedet</a>
-				</div>
-				</div>
+			<div id="shortcutButtonWrap">
+				<ul>
+					<li id="blivmedlem"><a href="facebook.dk">Bliv medlem</a></li>
+					<li id="market"><a href="kmarkedet.html">Kræmmermarked</a></li>
+				</ul>
+			</div>
  	</div>
 	</div>
 	</div>
@@ -57,30 +57,28 @@
 
 	</div>
 
-	<div id="introductionBG"></div>
-
 <div class="content" id="second" style="background-color: #EEF5F7; height: 760px;">
 	<h2>Events for medlemmer</h2>
 
 	<div style="width: 100%; margin: 0px auto;">
 	<div class="threecolumns">
-		<div class="salestag" style="position: relative;">NYHED</div> 
+		<div class="salestag" style="position: relative;">NYHED</div>
 		<a href="404.html"><img src="images/foredrag.png"></a>
-		<p>Onsdag d. 31/10/2018</p> 
+		<p>Onsdag d. 31/10/2018</p>
 		<h3>Foredrag med Carsten Egø Nielsen: Pigerne fra Sprogø</h3>
 		<p style="float:right; font-size: 14px;">Læs mere...</p>
 	</div>
 	<div class="threecolumns">
-		<div class="salestag" style="position: relative;">20%</div> 
+		<div class="salestag" style="position: relative;">20%</div>
 		<a href="404.html"><img src="images/musical.png"></a>
-		<p>Torsdag d. 15/11 2018</p> 
+		<p>Torsdag d. 15/11 2018</p>
 		<h3>Musical i Odeon</h3>
 		<p style="float:right; font-size: 14px; margin-top: 35px;">Læs mere...</p>
 	</div>
 	<div class="threecolumns" style="margin-right: 0%; z-index: 3;">
-		<div class="salestag" style="position: relative;">50%</div> 
+		<div class="salestag" style="position: relative;">50%</div>
 		<img src="images/juleturaarhus.png">
-		<p>Lørdag d. 24/11 2018</p> 
+		<p>Lørdag d. 24/11 2018</p>
 		<h3>Juletur til Århus</h3>
 		<p style="float:right; font-size: 14px; margin-top: 35px;">Læs mere...</p>
 	</div>
@@ -94,14 +92,14 @@
 	<div class="twocolumns">
 		<a href="404.html"><img src="images/djurssommerland.png"></a>
 		<h3>En tur til Djurs sommerland</h3>
-		<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim</p>
-		<p style="float:right; text-align: right; font-size: 14px; padding-right: 5%;">Læs mere...</p>
+		<p>Borgerforeningen forstærker sammenholdet med familieudflugter, i sommeren 2018 blev det til en fantastisk tur, til Djurs Sommerland.</p>
+		<p style="float:right; text-align: right; font-size: 14px; padding-right: 5%;">(hover over billedet, for at se hvad dem der var med mener om turen)</p>
 	</div>
 	<div class="twocolumns" style="margin-right: 0%;">
 		<a href="404.html"><img src="images/foredrag2.png"></a>
-		<h3>Et foredrag, men ikke med Carsten Egø Nielsen</h3>
-		<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim </p>
-		<p style="float:right; text-align: right; font-size: 14px;">Læs mere...</p>
+		<h3>Et foredrag, med Carsten Egø Nielsen</h3>
+		<p>For tredje gang på 2 år, var Carsten forbi og gav endnu engang et super foredrag. Der blev fra Borgerforeningen mødt talstærkt op, og der var ikke én tom plads at finde i salen. </p>
+		<p style="float:right; text-align: right; font-size: 14px;">(hover over billedet, for at se hvad medlemmer syntes om foredrag)</p>
 	</div>
 	</div>
 </div>
@@ -147,6 +145,10 @@
 	</table>
 </footer>
 
+
+<div class="arrow" onclick="smoothScroll(document.getElementById('logo'))">
+<img width="40" height="40" alt="" src="arrowup.svg" />
+</div>
+
 </body>
 </html>
-
