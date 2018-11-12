@@ -2,11 +2,15 @@
 * {
     box-sizing: border-box;
 }
-body
-{
-    margin: 0px;
-    overflow-x: hidden; 
+
+body {
+	background-color: #fff;
+	font-family: 'Montserrat', sans-serif;
+	font-color: #505050;
+	overflow-x: hidden; 
+     margin: 0px;
 }
+
 
 /* HEADER & NAVIGATION */
 
@@ -23,7 +27,6 @@ body
 
  #headerWrap {
  	width: 90%;
-
  	margin: 0px auto;
  	background-color: #FFF;
  }
@@ -121,11 +124,11 @@ body
  .dropdown-content a:hover {background-color: transparent;}
 
 .main{
-  background-color: #DEECF1; 
+  background-color: #fff; 
   height: 1000px;
    width: 100%; 
    position: relative; 
-  padding-top: 250px;
+  padding-top: 260px;
 
 }
 
@@ -383,58 +386,71 @@ line-height: 20px;
 
 
 
+ .arrow {
+ 	margin-bottom: 20px;
+ 	margin-right: 40px;
+   width:50px;
+   height:50px;
+   float:right;
+   bottom:40px;
+   right:30px;
+   text-decoration: none;
+   text-align: center;
+   line-height: 50px;
+   font-size: 24px;
+ }
 
 
 /* FOOTER */
 
-		#footerContainer {
-			background-color: #60A3BC;
-			width: 100%;
-      font-family: montserrat;
-			padding-right: 4.5%;
-			padding-left: 8%;
-			position: relative;
-			
-			padding-top: 1%;
-			padding-bottom: 2%;
-			
-			height: 80px;
-			color: #FFF;
-			font-weight: bold;
+#footerContainer {
+  background-color: #60A3BC;
+  width: 102%;
+  padding-right: 7%;
+  padding-left: 8%;
+  position: relative;
+  left: -1%;
+  padding-top: 0.6%;
+  padding-bottom: 2%;
+  margin: 0px auto;
+  height: 20px;
+  color: #FFF;
+  font-weight: bold;
+}
 
+#footerContainer table {
+  width: 105%;
+}
 
-		}
+#footerContainer table tr td {
+  vertical-align: middle;
+}
 
-		#footerContainer table {
-			width: 100%;
-		}
+#footerContainer table tr td img {
+  width: 10px;
+}
 
-		#footerContainer table tr td {
-			vertical-align: middle;
-		}
+footer {
+  width: 102%;
+  padding-right: 7%;
+  padding-left: 8%;
+  position: relative;
+  left: -1%;
+  padding-top: 1%;
+  padding-bottom: 2%;
+  margin: 0px auto;
+  background-color: #f3f1ef;
+  color: #707070;
+  height: 150px;
+}
 
-		#footerContainer table tr td img {
-			width: 15px;
-		}
+footer table {
+  width: 100.5%;
+}
 
-		footer {
-			width: 100%;
-			   font-family: montserrat;
-			padding-right: 9%;
-			padding-left: 8%;
-			position: relative;
-			
-			padding-top: 1%;
-			padding-bottom: 2%;
-			
-			background-color: #fff;
-			color: #707070;
-			height: 100px;
-		}
-
-		footer table {
-			width: 100%;
-		}
-
-
+footer table tr td {
+  width: 39%;
+  padding-right: 10%;
+    padding-top: 0.5%;
+}
 
