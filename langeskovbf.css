@@ -30,14 +30,15 @@ body {
  	color: #505050;
  	font-family: 'Montserrat', sans-serif;
  	text-align: center;
+     padding-top: 10px;
  }
 
  h4 {
  	color: #505050;
+     font-size: 17px;
  	font-family: 'Montserrat', sans-serif;
- 	text-align: center;
- 	margin-left: 4%;
  	font-weight: bold;
+    
  }
 
  /* HEADER & NAVIGATION */
@@ -83,6 +84,8 @@ body {
 
  #navigation a {
  	color: #FFF;
+    font-size: 17px;
+    font-weight: bold;
  }
 
  #navigation a:hover {
@@ -153,7 +156,7 @@ body {
  /* FRONT PAGE PRESENTATION */
 
  #introductionBG {
- 	height: 1020px;
+ 	height: 951px;
  	width: 100%;
  }
 
@@ -199,10 +202,13 @@ body {
  	border-radius: 10px;
  	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
  	filter: saturate(100%);
+     
  }
 
  .shortcutButton1 a {
  	color: #FFF;
+     font-weight: bold;
+     
  }
 
  .shortcutButton2 /*KRÆMMERMARKED*/ {
@@ -286,7 +292,7 @@ body {
  	position: relative;
  	left: -2%;
  	padding-top: 1%;
- 	padding-bottom: 2%;
+ 	
  	margin: 0px auto;
  }
 
@@ -306,11 +312,11 @@ body {
  }
 
  .threecolumns {
- 	width: 24.5%;
- 	margin-right: 10.2%;
+ 	width: 27.5%;
+ 	margin-right: 5.7%;
  	padding-right: 2%;
  	float: left;
- 	text-align: center;
+ 	
  }
 
  .threecolumns img {
@@ -319,9 +325,10 @@ body {
  	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
  }
 
- .threecolumns p h3 {
+ .threecolumns p h4 {
  	padding-right: 10%;
  	padding-left: 10%;
+     margin-right: 10px;
  }
 
  .twocolumns {
@@ -330,20 +337,28 @@ body {
  	padding-right: -5%;
  	float: left;
  	text-align: left;
+     
  }
 
  .twocolumns img {
  	margin: 0px auto;
  	border-radius: 3%;
  	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    width: 600px;
  }
 
  .twocolumns p {
- 	width: 653px;
+ 	width: 600px;
+     padding: 10px;
+   
+
  }
 
- .twocolumns h3 {
+ .twocolumns h4 {
  	margin-left: 0px;
+     padding: 10px;
+     margin-bottom: -15px;
+     
  }
 
 
