@@ -43,6 +43,7 @@ h5 {
 	position: absolute;
 	top: 0;
 	left: 0;
+    
 }
 
 
@@ -53,7 +54,6 @@ main {
 #headerWrap {
 	width: 90%;
 	margin: 0px auto;
-	background-color: #FFF;
 }
 
 #logo {
