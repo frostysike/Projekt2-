@@ -44,7 +44,8 @@ header {
 	top: 0;
 	left: 0;
     z-index: 1;
-   background-color: #f3f1ef;
+    background-color: #f3f1ef;
+    box-shadow: 0px 0.5px 20px #bcbcbc;
 }
 
 
@@ -54,7 +55,8 @@ main {
 
 #headerWrap {
 	width: 90%;
-	margin: 0px auto;    
+	margin: 0px auto;  
+    
 }
 
 #logo {
@@ -71,17 +73,19 @@ main {
 
 
 #navigation {
-	width: 900px;
+	width: 910px;
 	padding: 7px;
 	float: right;
 	position: absolute;
-	top: 50px;
+	top: 45px;
 	right: 2.5%;
 	z-index: 5;
 }
 
 #navigation a {
-	color: #000;
+    font-weight: bold;
+    font-size: 17px;
+	color: #4c4c4c;
 }
 
 #navigation a:hover {
@@ -126,7 +130,8 @@ main {
 .dropdown-content {
 	display: none;
 	position: absolute;
-	background-color: white;
+	background-color: #fff;
+    box-shadow: 0px 0.5px 1px #bcbcbc;
 	min-width: 150px;
 	z-index: 1;
 }
@@ -154,7 +159,7 @@ main {
    width: 100%; 
    position: relative;
   
-  padding-top: 250px;
+  padding-top: 260px;
   
 
 }
