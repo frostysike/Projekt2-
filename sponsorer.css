@@ -1,0 +1,85 @@
+* {box-sizing:border-box}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+
+/* Hide the images */
+.Sildesshow{
+    display: none;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+/* Clear floats after image containers */
+.row1::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+/* row with images in center */
+.row1{
+  padding-right: 50px;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  margin-top: -22px;
+  padding: 16px;
+  color:#bbb;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;   
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+}
+
+/* Hover effect next & previous buttons */
+.prev:hover, .next:hover {
+  color: #717171;
+}
+
+
+/* Dots*/
+.dot {
+  height: 10px;
+  width: 10px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+/* Color change when the dot it active*/
+.active{
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
