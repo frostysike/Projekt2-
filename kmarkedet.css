@@ -650,7 +650,7 @@ footer table tr td {
     padding-top: 0.5%;
 }
 
-=======
+
 .popup {
     position: relative;
     display: inline-block;
@@ -713,7 +713,7 @@ footer table tr td {
   width: 100%;
   position: absolute;
   top: 30%;
-  left:90%;
+  left:91%;
   transform: translate(-50%, -50%);
   text-align: center;
   color: white;
@@ -731,13 +731,19 @@ footer table tr td {
   height: 80px;
   border: 2px solid;
   margin: 0 30px;
-  font-size: 12px;
+  font-size: 16px;
   border-radius: 50%;
   overflow: hidden;
 }
 
 .countd span{
+
   display: block;
-  font-size: 20px;
+  font-size: 25px;
   margin-top: 14px;
+}
+
+
+.arrow {
+	text-align: right;
 }
