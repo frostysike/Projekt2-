@@ -96,39 +96,6 @@
 			<h1>Langeskov Borgerforening</h1>
 
 
-			  <script>
-			    var getBody = document.body;
-
-			    var newElement = document.createElement("p");
-
-			    var date = new Date();
-			    var currentHour = date.getHours();
-
-			    var createTxtMsg;
-
-			    if (currentHour >= 3 && currentHour < 10) {
-			      createTxtMsg ="Godmorgen";
-			    } else if (currentHour >= 10 && currentHour < 16) {
-			      createTxtMsg ="Du er altid velkommen til at skrive, skulle du side inde med et spørgsmål" ;
-			    } else if (currentHour >= 16 && currentHour < 22) {
-			      createTxtMsg ="Du kan komme fra Langeskov til Odense på kun 9min";
-			    } else if (currentHour >= 22 && currentHour < 3) {
-			      createTxtMsg ="God aften";
-			    } else {
-			      createTxtMsg ="Der er noget galt med siden";
-			    }
-
-			  var createEleTxt = document.createTextNode(createTxtMsg);
-			  newElement.appendChild(createEleTxt);
-
-			  getBody.appendChild(newElement);
-
-			  newElement.setAttribute("class", "welcome");
-
-			  newElement.style.cssText = "text-align:center; font-size:50px; font-family:'Montserrat';";
-
-			  </script>
-
 
 				<div id="shortcutButtonWrap">
 					<div class="shortcutButton1" style="width: 200px;">
@@ -199,45 +166,7 @@
 </div>
 </main>
 
-<div id="footerContainer">
-	<table>
-		<tr>
-			<td>Langeskov borgerforening</td>
-			<td>© Copyright. All rights reserved</td>
-			<td style="width: 7%;">Følg os på:</td>
-			<td style="width: 5%;"><a href="facebookside.dk"><img src="images/facebook.png"></a></td>
-		</tr>
-	</table>
-</div>
 
-<footer>
-	<table>
-		<tr style="font-weight: bold;">
-			<td>Forening</td>
-			<td>Arrangement</td>
-			<td>Bliv medlem</td>
-			<td style="text-align: right;">Kontakt</td>
-		</tr>
-		<tr>
-			<td>Bestyrelse</td>
-			<td>Event</td>
-			<td></td>
-			<td></td>
-		</tr>
-		<tr>
-			<td>Historie</td>
-			<td>Kalender</td>
-			<td></td>
-			<td></td>
-		</tr>
-		<tr>
-			<td></td>
-			<td>Kræmmermarked</td>
-			<td></td>
-			<td></td>
-		</tr>
-	</table>
-</footer>
 
 
 <div class="arrow" onclick="smoothScroll(document.getElementById('logo'))">
@@ -247,6 +176,47 @@
 <img width="40" height="40" alt="" src="arrowup.svg" />
 
 </div>
+    
+
+<div id="footerContainer">
+  <table>
+    <tr>
+      <td>Langeskov borgerforening</td>
+      <td>© Copyright. All rights reserved</td>
+      <td style="width: 7%;">Følg os på:</td>
+      <td style="width: 5%;"><a href="facebookside.dk"><img src="images/facebook.png"></a></td>
+    </tr>
+  </table>
+</div>
+
+<footer>
+  <table>
+    <tr style="font-weight: bold;">
+      <td>Forening</td>
+      <td>Arrangementer</td>
+      <td>Bliv medlem</td>
+      <td style="text-align: right;">Kontakt</td>
+    </tr>
+    <tr>
+      <td>Bestyrelse</td>
+      <td>Events</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Historie</td>
+      <td>Kalender</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+  </table>
+</footer>
 
 </body>
 </html>

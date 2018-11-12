@@ -594,59 +594,8 @@ main {
 }
 
 
-/* FOOTER */
 
-#footerContainer {
-	background-color: #BD2B23;
-	width: 87%;
-	padding-right: 7%;
-	padding-left: 8%;
-	position: relative;
-	left: -1%;
-	padding-top: 0.6%;
-	padding-bottom: 1%;
-	margin: 0px auto;
-	height: 20px;
-	color: #FFF;
-	font-weight: bold;
-}
-
-#footerContainer table {
-	width: 101.5%;
-}
-
-#footerContainer table tr td {
-	vertical-align: middle;
-}
-
-#footerContainer table tr td img {
-	width: 10px;
-}
-
-footer {
-	width: 102%;
-	padding-right: 7%;
-	padding-left: 8%;
-	position: relative;
-	left: -1%;
-	padding-top: 1%;
-	padding-bottom: 2%;
-	margin: 0px auto;
-	background-color: #fff;
-	color: #707070;
-	height: 100px;
-}
-
-footer table {
-	width: 83%;
-}
-
-footer table tr td {
-	width: 39%;
-	padding-right: 10%;
-    padding-top: 0.5%;
-}
-
+/* POPUP */
 
 .popup {
     position: relative;
@@ -743,4 +692,59 @@ footer table tr td {
 
 .arrow {
 	text-align: right;
+}
+
+
+
+/* FOOTER */
+
+#footerContainer {
+  background-color: #BD2B23;
+  width: 89%;
+  padding-right: 7%;
+  padding-left: 6%;
+  position: relative;
+  left: -1%;
+  padding-top: 0.6%;
+  padding-bottom: 2%;
+  margin: 0px auto;
+  height: 1px;
+  color: #FFF;
+  font-weight: bold;
+}
+
+#footerContainer table {
+  width: 105%;
+}
+
+#footerContainer table tr td {
+  vertical-align: middle;
+}
+
+#footerContainer table tr td img {
+  width: 10px;
+}
+
+footer {
+  width: 89%;
+  padding-right: 7%;
+  padding-left: 6%;
+  position: relative;
+  left: -1%;
+  padding-top: 1%;
+  padding-bottom: 2%;
+  margin: 0px auto;
+  background-color: #f3f1ef;
+  color: #707070;
+  height: 100px;
+}
+
+footer table {
+  width: 100.5%;
+}
+
+footer table tr td {
+  width: 39%;
+  padding-right: 10%;
+    padding-top: 0.5%;
 }
