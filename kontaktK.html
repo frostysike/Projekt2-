@@ -3,6 +3,7 @@
 <title> Form </title>
 <link rel="stylesheet" type="text/css" href="kontaktK.css">
   <link rel="stylesheet" href="blivfrivillig.css" >
+  <link rel="stylesheet" href="program.css">
   <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
 <script src="kontakt.js"></script>
 </head>
@@ -22,20 +23,17 @@
                     <button class="dropbtn">
                   <li><a href="kmarkedet.html">Forside</a></li>
 
-                  <div class="dropdown-content">
-
-                  </div>
                   </div>
 
                   <div class="dropdown">
                     <button class="dropbtn">
-                  <li><a href="#" onclick="alert('Denne side virker ikke');">For besøgende <img src="images/arrowunderside.png"></a></li>
+                  <li><a href="#">For besøgende <img src="images/arrowunderside.png"></a></li>
                 </button>
 
                 <div class="dropdown-content">
                                   <a href="program.html">Program</a>
-                  <a href="#">Generel Info</a>
-                  <a href="#">Find Vej</a>
+                  <a href="information.html">Generel Info</a>
+                  <a href="#" onclick="alert('Rutevejledning under ombygning');">Find Vej</a>
                 </div>
               </div>
 
@@ -44,35 +42,39 @@
                   <li><a href="arrangementer.html">For kræmmere <img src="images/arrowunderside.png"></a></li>
                 </button>
                 <div class="dropdown-content">
-                  <a href="#">Bestil stadeplads</a>
-                  <a href="#">Generel info</a>
+
+
+
+                  <a href="#" class="popup" onclick="myFunction()" Bestil stadeplads
+                    <span class="popuptext" id="myPopup">Bestil Stadeplads</span>
+                </a>
+
+
+                  <a href="information.html">Generel info</a>
 
                 </div>
                 </div>
 
                 <div class="dropdown">
                   <button class="dropbtn">
-                  <li><a href="blivmedlem.html">Bliv frivillig</a></li>
+                  <li><a href="#">Frivillig <img src="images/arrowunderside.png"></a></li></a></li>
                 </button>
                 <div class="dropdown-content">
-
+                  <a href="blivfrivillig.html">Bliv frivillig</a>
+                  <a href="#">Vagt</a>
                 </div>
                 </div>
 
                 <div class="dropdown">
                   <button class="dropbtn">
-                  <li style="margin-right: 0px;"><a href="form.html">Kontakt</a></li>
+                  <li style="margin-right: 0px;"><a href="kontaktK.html">Kontakt</a></li>
                 </button>
-                <div class="dropdown-content">
-
-                </div>
                 </div>
 
                 </ol>
               </div>
             </div>
               </header>
-
 
 
 
@@ -101,7 +103,7 @@
 
 </div>
 </div>
-    
+
     <div style="width:100%; position: fixed; bottom: 0;">
     <div id="footerContainer">
   <table>
@@ -113,7 +115,7 @@
     </tr>
   </table>
 </div>
-    
+
 <footer>
   <table>
     <tr style="font-weight: bold;">
@@ -141,11 +143,11 @@
       <td></td>
     </tr>
   </table>
-</footer>    
+</footer>
     </div>
-    
-        
-    
+
+
+
 </body>
 
 
