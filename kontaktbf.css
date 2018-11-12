@@ -208,7 +208,7 @@ footer table {
 footer table tr td {
   width: 39%;
   padding-right: 10%;
-    padding-top: 0.5%;
+  padding-top: 0.5%;
 }
 
 
@@ -263,6 +263,7 @@ footer table tr td {
 
  #navigation img {
  	width: 15px;
+    padding-top: 20px;
  }
 
  #navigation ol {

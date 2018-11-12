@@ -33,11 +33,11 @@ body {
 
  #logo {
  	position: absolute;
- 	top: 30px;
  }
 
  #logo img {
  	width: 110px;
+    padding-top: 20px;
  }
 
  #navigation {
