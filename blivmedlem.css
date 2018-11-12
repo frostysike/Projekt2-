@@ -206,14 +206,14 @@ form .submit
   background-color:#60A3BC;
   border-color: none;
   color: white;
-  font-size: 15px;
+  font-size: 17px;
   font-weight:  bold;
   letter-spacing: 2px;
   height:50px;
   margin-top:15px;
   cursor: pointer;
   text-align: center;
-  padding-top: 10px;
+  padding-top: 15px;
   border-radius: 5px;
 }
 
