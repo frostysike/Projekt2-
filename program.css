@@ -31,56 +31,61 @@ h5 {
     margin-top: -2%;
 }
 
+
+
 /* HEADER & NAVIGATION */
-header {
-	position: fixed;
-    overflow: hidden;
-    width: 100%;
-	height: 110px;
+
+.header {
+	width: 100%;
+	height: 125px;
 	padding-top: 0px;
 	margin-bottom: 775px;
-    background-color: #BD2B23;
-    padding: 15px;
-    box-shadow: 0px 1px 15px grey;
+	position: absolute;
 	top: 0;
 	left: 0;
 }
+
 
 main {
 	margin-top: -15px;
 }
 
 #headerWrap {
-	width: 90%; 
+	width: 90%;
 	margin: 0px auto;
 	background-color: #FFF;
 }
 
 #logo {
-	position: absolute; 
-	top: -7px;
-	left: 1%;
+	position: absolute;
+	top: 0px;
+	left: 4%;
+	top: 5px;
+	z-index: 5;
+    position: fixed;
 }
 
 #logo img {
-	width: 110px;
+	width: 150px;
 }
 
+
 #navigation {
-	width: 720px;
-	padding: 1px;
+	width: 900px;
+	padding: 7px;
 	float: right;
-	position: absolute; 
-	top: 30px;
-	right: 1%;
+	position: fixed;
+	top: 65px;
+	right: 2.5%;
+	z-index: 5;
 }
 
 #navigation a {
-	color: #fff;
+	color: #000;
 }
 
 #navigation a:hover {
-	color: antiquewhite;
+	color: grey;
 	opacity: 0.8;
 }
 
@@ -91,15 +96,15 @@ main {
 #navigation ol {
 	padding: 0px;
 	margin: 0px;
-	list-style-type: none; 
+	list-style-type: none;
 }
 
 #navigation ol li {
-	display: inline;
+
 	font-family: 'Montserrat', sans-serif;
-	font-size: 15px;
+	font-size: 16px;
 	margin-right: 45px;
-	color: red; 
+	color: white;
 }
 
 .dropDownSymbol {
@@ -107,41 +112,39 @@ main {
 }
 
 
- .dropbtn {
- 	background-color: transparent;
- 	padding: 15px;
- 	border: none;
- }
+.dropbtn {
+	background-color: transparent;
+	color: white;
+	padding: 15px;
+	border:none;
+}
 
 
- .dropdown {
- 	display: inline-block;
+.dropdown {
+	display: inline-block;
 
- }
+}
 
- .dropdown-content {
- 	display: none;
- 	position: absolute;
- 	background-color: transparent;
- 	min-width: 150px;
- 	z-index: 1;
- }
+.dropdown-content {
+	display: none;
+	position: absolute;
+	background-color: white;
+	min-width: 150px;
+	z-index: 1;
+}
 
- .dropdown-content a {
- 	color: white;
- 	padding: 1px;
- 	text-decoration: none;
- 	display: block;
- }
+.dropdown-content a {
+	color: white;
+	padding:12px 16px;
+	text-decoration: none;
+	display: block;
+}
 
- .dropdown:hover .dropdown-content {display:block;}
+.dropdown:hover .dropdown-content {display:block;}
 
- .dropdown:hover .dropbtn {background-color:transparent;}
+.dropdown:hover .dropbtn {background-color:transparent;}
 
- .dropdown-content a:hover {background-color: transparent;}
-
-
-
+.dropdown-content a:hover {background-color: transparent;}
 
 
 
@@ -153,7 +156,7 @@ main {
 	font-size: 30px;
     font-weight: bold;
     padding: 4%;
-    margin-left: 28%;
+    margin-left: 35%;
 }
 
 * {box-sizing:border-box}
@@ -164,7 +167,7 @@ main {
   position: relative;
   margin: auto;
   margin-top: 10%;
-  margin-left: 12.3%;
+  margin-left: 13.2%;
 }
 
 
@@ -201,7 +204,7 @@ main {
   font-weight: bold;
   font-size: 40px;
   transition: 0.6s ease;
-      right: 0;
+   right: 0;
 }
 
 /* On hover, add a black background color with a little bit see-through */
@@ -214,7 +217,7 @@ main {
 .dot {
   height: 10px;
   width: 10px;
-  margin: 0 2px;
+  margin: 0 5px;
   background-color: #bbb;
   border-radius: 50%;
   display: inline-block;
@@ -241,4 +244,60 @@ main {
 @keyframes fade {
   from {opacity: .4} 
   to {opacity: 1}
+}
+
+
+
+
+/* FOOTER */
+
+#footerContainer {
+	background-color: #BD2B23;
+	width: 102%;
+	padding-right: 7%;
+	padding-left: 8%;
+	position: relative;
+	left: -1%;
+	padding-top: 0.6%;
+	padding-bottom: 2%;
+	margin: 0px auto;
+	height: 20px;
+	color: #FFF;
+	font-weight: bold;
+}
+
+#footerContainer table {
+	width: 105%;
+}
+
+#footerContainer table tr td {
+	vertical-align: middle;
+}
+
+#footerContainer table tr td img {
+	width: 10px;
+}
+
+footer {
+	width: 102%;
+	padding-right: 7%;
+	padding-left: 8%;
+	position: relative;
+	left: -1%;
+	padding-top: 1%;
+	padding-bottom: 2%;
+	margin: 0px auto;
+	background-color: #D4D4D4;
+	color: #707070;
+	height: 150px;
+}
+
+footer table {
+	width: 100.5%;
+}
+
+footer table tr td {
+	width: 39%;
+	padding-right: 10%;
+    padding-top: 0.5%;
 }
