@@ -12,6 +12,17 @@ body {
 }
 
 
+#logo {
+ position: absolute;
+ top: 30px;
+}
+
+#logo img {
+ width: 150px;
+}
+
+
+
 .contact
 {
   padding: 10px;
