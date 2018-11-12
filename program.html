@@ -8,26 +8,58 @@
     <script src="langeskovbf.js"></script>
     <script src="scrolldown.js"></script>
 <style></style>
-        
+
 </head>
 
 <body>
-    
-    
-<header>
-		<div id="headerWrap">
-			<div id="logo">
-				<a href="kmarkedet.html"><img src="images/kmlogo.png"></a>
-			</div>
 
 
-						<div id="navigation">
-							<ol>
+	<header>
+			<div id="headerWrap">
+				<div id="logo">
+					<a href="kmarkedet.html"><img src="images/kmlogo.png"></a>
+				</div>
+
+
+							<div id="navigation">
+								<ol>
+
+									<div class="dropdown">
+										<button class="dropbtn">
+									<li><a href="kmarkedet.html">Forside</a></li>
+
+									<div class="dropdown-content">
+
+									</div>
+									</div>
+
+									<div class="dropdown">
+										<button class="dropbtn">
+									<li><a href="#" onclick="alert('Denne side virker ikke');">For besøgende <img src="images/arrowunderside.png"></a></li>
+								</button>
+
+								<div class="dropdown-content">
+	                                <a href="program.html">Program</a>
+									<a href="#">Generel Info</a>
+									<a href="#">Find Vej</a>
+								</div>
+							</div>
+
+							<div class="dropdown">
+								<button class="dropbtn">
+									<li><a href="arrangementer.html">For kræmmere <img src="images/arrowunderside.png"></a></li>
+								</button>
+								<div class="dropdown-content">
+									<a href="#">Bestil stadeplads</a>
+									<a href="#">Generel info</a>
+
+								</div>
+								</div>
 
 								<div class="dropdown">
 									<button class="dropbtn">
-								<li><a href="kmarkedet.html">Forside</a></li>
-
+									<li><a href="blivmedlem.html">Bliv frivillig</a></li>
+								</button>
 								<div class="dropdown-content">
 
 								</div>
@@ -35,61 +67,28 @@
 
 								<div class="dropdown">
 									<button class="dropbtn">
-								<li><a href="#" onclick="alert('Denne side virker ikke');">For besøgende <img src="images/dropdownarrow.gif"></a></li>
-							</button>
+									<li style="margin-right: 0px;"><a href="form.html">Kontakt</a></li>
+								</button>
+								<div class="dropdown-content">
 
-							<div class="dropdown-content">
-                                <a href="program.html">Program</a>
-								<a href="#">Generel Info</a>
-								<a href="#">Find Vej</a>
+								</div>
+								</div>
+
+								</ol>
 							</div>
 						</div>
-
-						<div class="dropdown">
-							<button class="dropbtn">
-								<li><a href="arrangementer.html">For kræmmere <img src="images/dropdownarrow.gif"></a></li>
-							</button>
-							<div class="dropdown-content">
-								<a href="#">Bestil stadeplads</a>
-								<a href="#">Generel info</a>
-
-							</div>
-							</div>
-
-							<div class="dropdown">
-								<button class="dropbtn">
-								<li><a href="blivmedlem.html">Bliv frivillig</a></li>
-							</button>
-							<div class="dropdown-content">
-
-							</div>
-							</div>
-
-							<div class="dropdown">
-								<button class="dropbtn">
-								<li style="margin-right: 0px;"><a href="form.html">Kontakt</a></li>
-							</button>
-							<div class="dropdown-content">
-
-							</div>
-							</div>
-
-							</ol>
-						</div>
-					</div>
-            </header>
-
+	            </header>
 <main>
 
 
 
-    
+
 <!-- Program slideshow-->
-        
+
 <div class="slideshow-container">
 
-    <div class="mySlides"> 
-        
+    <div class="mySlides">
+
 <div class=" img-container fade">
   <div class="text">Fredag d. 21 september</div>
   <img src="images/21sep.program1.gif" style="width:100%">
@@ -104,21 +103,21 @@
   <div class="text">Søndag d. 23 september</div>
   <img src="images/23sep.program1.gif" style="width:100%">
 </div>
-   
+
     </div>
-        
-        
+
+
 <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
 <a class="next" onclick="plusSlides(1)">&#10095;</a>
 
 </div>
 
 <div style="text-align:center">
-  <span class="dot" ></span> 
-  <span class="dot" ></span> 
-  <span class="dot" ></span> 
+  <span class="dot" ></span>
+  <span class="dot" ></span>
+  <span class="dot" ></span>
 </div>
-        
+
 <script>
 
 
@@ -139,23 +138,23 @@ function showSlides(n) {
   var i;
   var slides = document.getElementsByClassName("img-container");
   var dots = document.getElementsByClassName("dot");
-  if (n > slides.length) {slideIndex = 1} 
+  if (n > slides.length) {slideIndex = 1}
   if (n < 1) {slideIndex = slides.length}
   for (i = 0; i < slides.length; i++) {
-      slides[i].style.display = "none"; 
+      slides[i].style.display = "none";
   }
   for (i = 0; i < dots.length; i++) {
       dots[i].className = dots[i].className.replace(" active", "");
   }
-  slides[slideIndex-1].style.display = "block"; 
+  slides[slideIndex-1].style.display = "block";
   dots[slideIndex-1].className += " active";
 }
 
 </script>
-    
+
 <br>
 <br>
-    
+
 <div id="footerContainer">
 	<table>
 		<tr>
@@ -196,7 +195,7 @@ function showSlides(n) {
 	</table>
 </footer>
 
-    
+
 
 </body>
 </html>
