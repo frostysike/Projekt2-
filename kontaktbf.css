@@ -6,7 +6,7 @@
 body {
 	background-color: #fff;
 	font-family: 'Montserrat', sans-serif;
-	overflow-x: hidden; 
+	overflow-x: hidden;
     color: #505050;
      margin: 0px;
 }
@@ -25,8 +25,9 @@ body {
   line-height:5px;
 }
 
-form{
+form {
   margin-top:50px;
+  padding:22px;
 
 }
 
@@ -113,7 +114,7 @@ input
   color: white;
   font-size:10px;
   margin-bottom:10px;
-
+  padding-right: 20px;
 }
 
 input
@@ -152,7 +153,7 @@ form .submit:hover
   padding: 5px;
 }
 
-   
+
 /* FOOTER */
 
 #footerContainer {
@@ -210,4 +211,113 @@ footer table tr td {
 }
 
 
+/* HEADER & NAVIGATION */
 
+ header {
+ 	width: 100%;
+ 	padding-top: 0px;
+ 	margin-bottom: 775px;
+ 	position: absolute;
+ 	top: 0;
+ 	left: 0;
+    z-index: 1;
+ }
+
+
+ #headerWrap {
+ 	width: 90%;
+ 	margin: 0px auto;
+ 	background-color: #FFF;
+ }
+
+ #logo {
+ 	position: absolute;
+ 	top: 20px;
+ }
+
+ #logo img {
+ 	width: 110px;
+ }
+
+ #navigation {
+ 	width: 1920px;
+ 	height: 100px;
+ 	padding: 400px;
+ 	float: left;
+ 	padding-top: 40px;
+
+
+ }
+
+ #navigation a {
+ 	color: #fff;
+
+
+ }
+
+ #navigation a:hover {
+ 	color: #FFF;
+ 	opacity: 0.8;
+ }
+
+ #navigation img {
+ 	width: 15px;
+ }
+
+ #navigation ol {
+ 	padding: 0px;
+ 	margin: 0px;
+ 	list-style-type: none;
+
+
+ }
+
+ #navigation ol li {
+
+ 	font-family: 'Montserrat', sans-serif;
+ 	font-size: 16px;
+ 	margin-right: 45px;
+ 	color: white;
+
+ }
+
+ .dropDownSymbol {
+ 	width: 10px;
+ }
+
+
+ .dropbtn {
+ 	background-color: transparent;
+
+ 	padding: 15px;
+ 	border:none;
+ }
+
+
+ .dropdown {
+ 	display: inline-block;
+
+
+ }
+
+ .dropdown-content {
+ 	display: none;
+ 	position: absolute;
+ 	background-color: #4c8296;
+ 	min-width: 150px;
+ 	z-index: 1;
+
+ }
+
+ .dropdown-content a {
+ 	color: white;
+ 	padding:12px 16px;
+ 	text-decoration: none;
+ 	display: block;
+ }
+
+ .dropdown:hover .dropdown-content {display:block;}
+
+ .dropdown:hover .dropbtn {background-color:transparent;}
+
+ .dropdown-content a:hover {background-color: transparent;}

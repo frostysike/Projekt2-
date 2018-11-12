@@ -2,7 +2,7 @@ body {
 	background-color: #fff;
 	font-family: 'Montserrat', sans-serif;
 	font-color: #505050;
-	overflow-x: hidden; 
+	overflow-x: hidden;
      margin: 0px;
 }
 
@@ -33,146 +33,137 @@ h5 {
 
 
 
+
+
 /* HEADER & NAVIGATION */
 
-header {
-	width: 100%;
-	height: 145px;
-	padding-top: 0px;
-	margin-bottom: 775px;
-	position: absolute;
-	top: 0;
-	left: 0;
+ header {
+ 	width: 100%;
+ 	padding-top: 0px;
+ 	margin-bottom: 775px;
+ 	position: absolute;
+ 	top: 0;
+ 	left: 0;
     z-index: 1;
-    background-color: #f3f1ef;
-    box-shadow: 0px 0.5px 20px #bcbcbc;
-}
+ }
 
 
-main {
-	margin-top: -15px;
-}
+ #headerWrap {
+ 	width: 90%;
+ 	margin: 0px auto;
+ 	background-color: #FFF;
+ }
 
-#headerWrap {
-	width: 90%;
-	margin: 0px auto;  
-    
-}
+ #logo {
+ 	position: absolute;
+ 	top: 20px;
+ }
 
-#logo {
-	position: absolute;
-	top: 0px;
-	left: 4%;
-	top: 5px;
-	z-index: 5;
-}
+ #logo img {
+ 	width: 110px;
+ }
 
-#logo img {
-	width: 125px;
-}
-
-
-#navigation {
-	width: 910px;
-	padding: 7px;
-	float: right;
-	position: absolute;
-	top: 45px;
-	right: 2.5%;
-	z-index: 5;
-}
-
-#navigation a {
-    font-weight: bold;
-    font-size: 17px;
-	color: #4c4c4c;
-}
-
-#navigation a:hover {
-	color: grey;
-	opacity: 0.8;
-}
-
-#navigation img {
-	width: 15px;
-}
-
-#navigation ol {
-	padding: 0px;
-	margin: 0px;
-	list-style-type: none;
-}
-
-#navigation ol li {
-	font-family: 'Montserrat', sans-serif;
-	font-size: 16px;
-	margin-right: 45px;
-	color: white;
-}
-
-.dropDownSymbol {
-	width: 10px;
-}
+ #navigation {
+ 	width: 1920px;
+ 	height: 100px;
+ 	padding: 400px;
+ 	float: left;
+ 	padding-top: 40px;
 
 
-.dropbtn {
-	background-color:#f3f1ef;
-	padding: 15px;
-	border:none;
-}
+ }
+
+ #navigation a {
+ 	color: #fff;
 
 
-.dropdown {
-	display: inline-block;
+ }
 
-}
+ #navigation a:hover {
+ 	color: #FFF;
+ 	opacity: 0.8;
+ }
 
-.dropdown-content {
-	display: none;
-	position: absolute;
-	background-color: #fff;
-    box-shadow: 0px 0.5px 1px #bcbcbc;
-	min-width: 150px;
-	z-index: 1;
-}
+ #navigation img {
+ 	width: 15px;
+ }
 
-.dropdown-content a {
-	color: white;
-	padding:12px 16px;
-	text-decoration: none;
-	display: block;
-}
-
-.dropdown:hover .dropdown-content {display:block;}
-
-.dropdown:hover .dropbtn {background-color:transparent;}
-
-.dropdown-content a:hover {background-color: transparent;}
+ #navigation ol {
+ 	padding: 0px;
+ 	margin: 0px;
+ 	list-style-type: none;
 
 
+ }
+
+ #navigation ol li {
+
+ 	font-family: 'Montserrat', sans-serif;
+ 	font-size: 16px;
+ 	margin-right: 45px;
+ 	color: white;
+
+ }
+
+ .dropDownSymbol {
+ 	width: 10px;
+ }
 
 
+ .dropbtn {
+ 	background-color: transparent;
+
+ 	padding: 15px;
+ 	border:none;
+ }
+
+
+ .dropdown {
+ 	display: inline-block;
+
+
+ }
+
+ .dropdown-content {
+ 	display: none;
+ 	position: absolute;
+ 	background-color: #4c8296;
+ 	min-width: 150px;
+ 	z-index: 1;
+
+ }
+
+ .dropdown-content a {
+ 	color: white;
+ 	padding:12px 16px;
+ 	text-decoration: none;
+ 	display: block;
+ }
+
+ .dropdown:hover .dropdown-content {display:block;}
+
+ .dropdown:hover .dropbtn {background-color:transparent;}
+
+ .dropdown-content a:hover {background-color: transparent;}
 
 .main{
-  background-color: #fff; 
+  background-color: #fff;
   height: 1000px;
-   width: 100%; 
+   width: 100%;
    position: relative;
-  
   padding-top: 260px;
-  
 
 }
 
 .frivillig{
-	
+
 	margin-bottom: 200px;
 }
 
 .fordelcontainer {
     margin-right: auto;
     margin-left: auto;
-   
+
     width: 950px;
 
 }
@@ -216,7 +207,7 @@ padding-top: 25px;
 .blivfrivillig{
     width: 400px;
     float: left;
-    
+
     padding: 100px 50px 0 50px;
     height: 600px;
     background: #f3f1ef;
@@ -235,7 +226,7 @@ h6 {
 
 p{
 	text-align: center;
-    
+
 }
 
 a {
@@ -256,7 +247,7 @@ a {
 /* Hide the images by default */
 .img-container{
     display: none;
- 
+
 }
 
 
@@ -273,7 +264,7 @@ a {
 
 h2 {
     font-size: 21px;
-    
+
 }
 
 
@@ -304,12 +295,12 @@ h2 {
 }
 
 @-webkit-keyframes fade {
-  from {opacity: .4} 
+  from {opacity: .4}
   to {opacity: 1}
 }
 
 @keyframes fade {
-  from {opacity: .4} 
+  from {opacity: .4}
   to {opacity: 1}
 }
 
@@ -333,7 +324,7 @@ input[type=checkbox] {
 	margin-bottom: 20px;
     margin-top: 16px;
 
-    
+
 
 }
 
@@ -473,6 +464,3 @@ footer table tr td {
   padding-right: 10%;
     padding-top: 0.5%;
 }
-
-
-
