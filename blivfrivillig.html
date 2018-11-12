@@ -1,0 +1,301 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+    <link rel="stylesheet" href="blivfrivillig.css" >
+
+</head>
+
+
+
+<body>
+  <header style="background-color: #FF5252; height: 120px">
+    <div id="headerWrap">
+      <div id="logo">
+        <a href="index.html"><img src="images/langeskovlogo.png"></a>
+      </div>
+
+
+
+      <div id="navigation" style="height: 120px">
+        <ol>
+
+          <div class="dropdown">
+            <button class="dropbtn">
+          <li><a href="index.html">Forside</a></li>
+
+          <div>
+            <a href="#"></a>
+            <a href="#"></a>
+          </div>
+          </div>
+
+          <div class="dropdown">
+            <button class="dropbtn">
+          <li><a href="#" onclick="alert('Denne side virker ikke');">Forening <img src="images/dropdownarrow.gif"></a></li>
+        </button>
+
+        <div class="dropdown-content">
+          <a href="#">Bestyrelsen</a>
+          <a href="#">Historie</a>
+        </div>
+      </div>
+
+      <div class="dropdown">
+        <button class="dropbtn">
+          <li><a href="arrangementer.html">Arrangementer <img src="images/dropdownarrow.gif"></a></li>
+        </button>
+        <div class="dropdown-content">
+          <a href="#">Events</a>
+          <a href="#">Kalender</a>
+
+        </div>
+        </div>
+
+        <div class="dropdown">
+          <button class="dropbtn">
+          <li><a href="blivmedlem.html">Bliv medlem</a></li>
+        </button>
+        <div >
+          <a href="#"></a>
+          <a href="#"></a>
+        </div>
+        </div>
+
+        <div class="dropdown">
+          <button class="dropbtn">
+          <li style="margin-right: 0px;"><a href="kontakt.html">Kontakt</a></li>
+        </button>
+        <div>
+          <a href="#"></a>
+          <a href="#"></a>
+        </div>
+        </div>
+
+        </ol>
+      </div>
+    </div>
+</header>
+
+<main class="main">
+
+
+
+<div class="frivillig">
+
+
+<div class="fordelcontainer ">
+
+
+    <div class="fordel">
+
+        <div class="slideshow-container">
+        <div class= "mySlides ">
+
+           <div class="img-container fade">
+                <img src="images/hotdog.png" style="width:150px">
+                <div class="texttilfordel">
+                  <h2>Gratis pølse!</h2>
+    <p style="font-size: 18px">Som frivllig af Langeskov Kræmmermarked for du en gratis pølse inkl. en valgfrit drink.</p>
+                </div>
+           </div>
+
+
+ <div class="img-container fade">
+                <img src="images/conversation.png" style="width:150px">
+                <div class="texttilfordel">
+                  <h2>Møde en masse nye mennesker</h2>
+    <p style="font-size: 18px">Som frivllig har du mulighed for at møde en masser nye mennesker.
+
+
+
+    </p>
+                </div>
+           </div>
+           
+      
+      </div>
+          
+
+
+
+         </div>
+
+
+<br>
+
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span> 
+  <span class="dot" onclick="currentSlide(2)"></span>  
+</div>
+
+
+    </div>
+
+
+      
+</div>
+
+
+
+
+<div class="blivfrivillig">
+
+    <h3>Bliv frivillg for Langeskov Kræmmermarked </h3>
+    <p style="font-size: 19px;">Og giv en hjælpende hånd</p>
+
+    <div class="row">
+
+      <div class="column">
+
+      <div class="form">
+      <form id="form">
+
+    <input style="height:30px;" name="name" type="text" class="form-control" placeholder="Fornavn">
+
+    <br>
+    <input style="height:30px;" name="lastname" type="text" class="form-control" placeholder="Efternavn">
+    
+<br>
+ <input style="height:30px;" name="telefon" type="text" class="form-control" placeholder="Telefon">
+<br>
+    <input style="height:30px;" name="Email" type="Email" class="form-control" placeholder="Email" >
+
+    <br> 
+
+    <div class ="form-control submit" id="myBtn">SEND</div>
+      </form>
+     </div>
+      </div>
+
+    </div>
+              
+</div>
+
+
+<!-- The Modal -->
+<div id="myModal" class="modal">
+
+  <!-- Modal content -->
+  <div class="modal-content">
+    <span class="close">&times;</span>
+    <p>Din ansøning om at blive frivillig af Langeskov Kræmmermarked er nu blivet sendt. Du vil inden for 24 timer modtage en email fra os, med yderliger informationer   
+
+     </p>
+  </div>
+
+</div>
+
+
+</main>
+ 
+<div id="footerContainer">
+  <table>
+    <tr>
+      <td>Langeskov borgerforening</td>
+      <td>© Copyright. All rights reserved</td>
+      <td style="width: 7%;">Følg os på:</td>
+      <td style="width: 5%;"><a href="facebookside.dk"><img src="images/facebook.png"></a></td>
+    </tr>
+  </table>
+</div>
+
+<footer>
+  <table>
+    <tr style="font-weight: bold;">
+      <td>For besøgende</td>
+      <td>For kræmmere</td>
+      <td>Frivillige</td>
+      <td style="text-align: right;">Kontakt</td>
+    </tr>
+    <tr>
+      <td>Program</td>
+      <td>Bestil stadeplads</td>
+      <td>Bliv frivillig</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Generel info</td>
+      <td>Generel info</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Find vej</td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+  </table>
+</footer>
+
+
+
+<script>
+
+
+var slideIndex = 0;
+showSlides();
+var slides,dots;
+
+function showSlides() {
+    var i;
+    slides = document.getElementsByClassName("img-container");
+    dots = document.getElementsByClassName("dot");
+    for (i = 0; i < slides.length; i++) {
+       slides[i].style.display = "none";  
+    }
+    slideIndex++;
+    if (slideIndex> slides.length) {slideIndex = 1}    
+    for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+    }
+    slides[slideIndex-1].style.display = "block";  
+    dots[slideIndex-1].className += " active";
+    setTimeout(showSlides, 8000); // Change image every 8 seconds
+}
+function currentSlide(index) {
+    if (index> slides.length) {index = 1}
+    else if(index<1){index = slides.length}
+    for (i = 0; i < slides.length; i++) {
+       slides[i].style.display = "none";  
+    }
+    for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+    }
+    slides[index-1].style.display = "block";  
+    dots[index-1].className += " active";
+}
+
+// Get the modal
+var modal = document.getElementById('myModal');
+
+// Get the button that opens the modal
+var btn = document.getElementById("myBtn");
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
+
+// When the user clicks on the button, open the modal 
+btn.onclick = function() {
+    modal.style.display = "block";
+}
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() {
+    modal.style.display = "none";
+}
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+    if (event.target == modal) {
+        modal.style.display = "none";
+    }
+}
+
+</script>
+
+
+</body>
+</html>
