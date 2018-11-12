@@ -5,6 +5,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
     <link rel="stylesheet" href="kmarkedet.css">
+		<link rel="stylesheet" href="cd2.css">
     <script src="langeskovbf.js"></script>
     <script src="scrolldown.js"></script>
 		<script src="cd2.js"></script>
@@ -39,13 +40,13 @@
 
 								<div class="dropdown">
 									<button class="dropbtn">
-								<li><a href="#" onclick="alert('Denne side virker ikke');">For besøgende <img src="images/dropdownarrow.gif"></a></li>
+								<li><a href="#">For besøgende <img src="images/dropdownarrow.gif"></a></li>
 							</button>
 
 							<div class="dropdown-content">
                                 <a href="program.html">Program</a>
-								<a href="#">Generel Info</a>
-								<a href="#">Find Vej</a>
+								<a href="information.html">Generel Info</a>
+								<a href="#" onclick="alert('Rutevejledning under ombygning');">Find Vej</a>
 							</div>
 						</div>
 
@@ -54,7 +55,15 @@
 								<li><a href="arrangementer.html">For kræmmere <img src="images/dropdownarrow.gif"></a></li>
 							</button>
 							<div class="dropdown-content">
-								<a href="#">Bestil stadeplads</a>
+
+								<div class="popup" onclick="myFunction()"><span class="popuptext" id="myPopup">Kontakt for mere info</span>
+</div>
+
+								<a href="#" class="popup" onclick="myFunction()" Bestil stadeplads
+								  <span class="popuptext" id="myPopup">Bestil Stadeplads</span>
+							</a>
+
+
 								<a href="#">Generel info</a>
 
 							</div>
@@ -93,7 +102,56 @@
 
 
 
-<p id="cd"></p>
+
+
+
+
+<div class="cdown">
+	<div class="count">
+		<div class="countd">
+			<span id="days">00</span>
+			Dage
+		</div>
+</div>
+</div>
+
+
+		  <script>
+		  var countDownDate = new Date("Sep 21, 2019 00:00:00").getTime();
+
+
+		  var x = setInterval(function() {
+
+
+		      var now = new Date().getTime();
+
+
+		      var distance = countDownDate - now;
+
+
+		      var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+		      var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+		      var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+		      var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+
+		      document.getElementById("days").innerHTML = days + " ";
+
+		      document.getElementById("hours").innerHTML = hours + " ";
+
+		      document.getElementById("min").innerHTML =  minutes + " ";
+
+		      document.getElementById("sec").innerHTML = seconds + " ";
+
+
+
+		  }, 1000);
+		  </script>
+
+
+
+
+
 		<div class="introductionWrap">
 			<h1>Langeskov Kræmmermarked</h1>
 
