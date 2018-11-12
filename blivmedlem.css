@@ -214,8 +214,7 @@ form .submit
   border-radius: 5px;
 }
 
-form .submit:hover
-{
+form .submit:hover {
   background-color: #4c8296;
   cursor:pointer;
 }
