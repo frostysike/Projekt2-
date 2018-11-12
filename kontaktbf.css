@@ -12,16 +12,6 @@ body {
 }
 
 
-#logo {
- position: absolute;
- top: 30px;
-}
-
-#logo img {
- width: 150px;
-}
-
-
 
 .contact
 {
@@ -243,7 +233,7 @@ footer table tr td {
 
  #logo {
  	position: absolute;
- 	top: 20px;
+ 	top: 30px;
  }
 
  #logo img {
