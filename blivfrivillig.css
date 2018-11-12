@@ -159,8 +159,8 @@ body
     width: 550px;
     float: left;
     color: #fff;
-    background: rgb(255,82,82);
-background: linear-gradient(97deg, rgba(255,82,82,1) 2%, rgba(255,155,82,1) 97%);
+  background: rgb(189,43,35);
+background: linear-gradient(55deg, rgba(189,43,35,1) 2%, rgba(255,74,64,1) 97%);
 overflow: hidden;
 height: 600px;
 padding-top: 25px;
@@ -313,7 +313,7 @@ input[type=checkbox] {
 
 form .submit
 {
-  background-color:#FF5252;
+  background-color:#bd2b23;
   border-color: none;
   color: white;
   font-size: 15px;
