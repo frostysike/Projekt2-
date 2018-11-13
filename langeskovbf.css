@@ -2,7 +2,7 @@ body {
 
  	background-color: white;
  	font-family: 'Montserrat', sans-serif;
- 	font-color: #505050;
+ 	color: #505050;
  	overflow-x: hidden;
  }
 
@@ -216,7 +216,7 @@ body {
  	padding: 10px;
  	padding-right: 15px;
  	padding-left: 15px;
- 	color: #black;
+ 	color: #000;
  	background-color: white;
  	float: left;
  	margin-right: 15px;
