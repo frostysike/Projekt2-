@@ -1,6 +1,6 @@
 body {
 	background-color: #fff;
-	font-family: 'Montserrat', sans-serif;
+	font-family: 'Montserrat';
 	color: #505050;
 	overflow-x: hidden;
      margin: 0px;
@@ -54,9 +54,9 @@ header {
 
 
 main {
-	margin-top: -15px;
+	margin-top: -240px;
   background-color: #fff;
-  height: 1000px;
+  height: 1200px;
    width: 100%;
    position: relative;
   padding-top: 260px;
@@ -433,6 +433,7 @@ line-height: 20px;
   height: 20px;
   color: #FFF;
   font-weight: bold;
+  font-family: montserrat;
 }
 
 #footerContainer table {
@@ -459,6 +460,7 @@ footer {
   background-color: #f3f1ef;
   color: #707070;
   height: 150px;
+   font-family: montserrat;
 }
 
 footer table {
