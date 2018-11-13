@@ -296,7 +296,96 @@ Man håber da også, at se et sted mellem 60.000 og 70.000 besøgende på kræmm
 
 	</div>
 
-	<img src="https://via.placeholder.com/1650x600" style="position: relative; right: 5px; margin-bottom: 30px; margin-top: 30px;">
+	<script>
+            //window.onload = startUp;
+            
+            var mousedOver = -1;
+            var globalSvgMouseOver = false;
+            var dots = ["check-in","tivoli","toilet","samaritan-house","barv","parkering"];
+
+            function startUp(){
+                dotContainerLoop(0);
+            }
+            function mouseInOut(io){
+                globalSvgMouseOver = io; 
+            }
+            function dotContainer(d, inn){
+                if(inn == false){
+                    document.getElementById(dots[d]).style.visibility = "hidden";
+                    mousedOver = -1;
+                }
+                else{
+                    document.getElementById(dots[d]).style.visibility = "visible";
+                    mousedOver = d;
+                }
+            }
+            /*function dotContainerLoop(d){
+                if(globalSvgMouseOver == false){
+                    dotContainerHideAll();
+                    document.getElementById(dots[d]).style.visibility = "visible";
+                    if(d < dots.length-1){
+                        d = d + 1;
+                    }
+                    else{
+                        d = 0;
+                    }
+                }
+                setTimeout(function(){ dotContainerLoop(d); }, 5000);
+            }
+            function dotContainerHideAll(){
+                for(i=0;i<dots.length;i++){
+                    if(i != mousedOver){
+                       document.getElementById(dots[i]).style.visibility = "hidden";                 
+                    }
+                }
+            }*/
+        </script>
+
+        <div class="content" id="third" style="background-color: #EDEDED; height: 850px; position: relative; left: 160px;">
+                <svg version="1.1"
+                 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1000px" height="810px" onmouseout="mouseInOut(false)" onmouseover="mouseInOut(true)">
+
+                     <circle class="dot1" cx="175" cy="409" r="18" onmouseout="dotContainer(0, false)" onmouseover="dotContainer(0, true)">
+                     </circle>
+
+                     <circle class="dot1" cx="306" cy="259" r="44" onmouseout="dotContainer(1, false)" onmouseover="dotContainer(1, true)">
+                     </circle>
+
+                     <polygon class="pst" points="426 345,459 345,459 312,426 312" onmouseout="dotContainer(2, false)" onmouseover="dotContainer(2, true)">
+                    </polygon>
+
+                     <polygon class="pst" points="166 477,197 477,197 444,167 444" onmouseout="dotContainer(3, false)" onmouseover="dotContainer(3, true)">
+                    </polygon>
+
+                    <circle class="dot1" cx="515" cy="529" r="23" onmouseout="dotContainer(4, false)" onmouseover="dotContainer(4, true)">
+                     </circle>
+
+                    <polygon class="pst" points="304 699,337 699,337 666,304 666" onmouseout="dotContainer(5, false)" onmouseover="dotContainer(5, true)">
+                    </polygon>
+
+                    <foreignObject width="20px" height="20px">
+                        <div class="dotContainer" id="check-in" style="width: 50px; position: relative; top: 345px; left: 140px;">
+                            <h5 style="padding: 0; margin: 0; font-size: 11px;">Check In</h5>
+                        </div>
+                        <div class="dotContainer" id="tivoli" style="width: 30px; position: relative; top: 135px; left: 280px;">
+                            <h5 style="padding: 0; margin: 0; font-size: 11px;">Tivoli</h5>
+                        </div>
+                        <div class="dotContainer" id="toilet" style="width: 45px;position: relative; top: 195px; left: 410px;">
+                            <h5 style="padding: 0; margin: 0; font-size: 11px;">Toiletter</h5>
+                        </div>
+                        <div class="dotContainer" id="samaritan-house" style="width:80px; position: relative; top: 375px; left: 130px;">
+                            <h5 style="padding: 0; margin: 0; font-size: 11px;">Samaritervagt</h5>
+                        </div>
+                        <div class="dotContainer" id="barv" style="width: 70px; position: relative; top: 300px; left: 470px;">
+                            <h5 style="padding: 0; margin: 0; font-size: 11px;">Bar V</h5>
+                            <p style="padding:0; margin:0; font-size: 11px;">Øl og pølser</p>
+                        </div>
+                        <div class="dotContainer" id="parkering" style="width: 70px; position: relative; top: 410px; left: 275px;">
+                            <h5 style="padding: 0; margin: 0; font-size: 11px;">Handicap parkering</h5>
+                        </div>
+                    </foreignObject>
+                </svg>
+        </div>
 </div>
 
 </main>
