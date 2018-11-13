@@ -1,7 +1,7 @@
 body {
 	background-color: #fff;
 	font-family: 'Montserrat', sans-serif;
-	font-color: #505050;
+	color: #505050;
 	overflow-x: hidden;
      margin: 0px;
 }
@@ -55,6 +55,11 @@ header {
 
 main {
 	margin-top: -15px;
+  background-color: #fff;
+  height: 1000px;
+   width: 100%;
+   position: relative;
+  padding-top: 260px;
 }
 
 #headerWrap {
@@ -152,14 +157,6 @@ main {
 .dropdown:hover .dropbtn {background-color:transparent;}
 
 .dropdown-content a:hover {background-color: transparent;}
-.main{
-  background-color: #fff;
-  height: 1000px;
-   width: 100%;
-   position: relative;
-  padding-top: 260px;
-
-}
 
 .frivillig{
 
@@ -340,7 +337,7 @@ input[type=checkbox] {
 form .submit
 {
   background-color:#bd2b23;
-  border-color: none;
+  border: none;
   color: white;
   font-size: 17px;
   font-weight:  bold;
