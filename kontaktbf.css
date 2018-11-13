@@ -1,13 +1,12 @@
-
 * {
     box-sizing: border-box;
 }
 
 
 body {
-	background-color: #fff;
-	font-family: 'Montserrat', sans-serif;
-	overflow-x: hidden;
+  background-color: #fff;
+  font-family: 'Montserrat', sans-serif;
+  overflow-x: hidden;
     color: #505050;
      margin: 0px;
 
@@ -16,13 +15,13 @@ body {
 
 
 header {
-	width: 100%;
-	height: 145px;
-	padding-top: 0px;
-	margin-bottom: 775px;
-	position: absolute;
-	top: 0;
-	left: 0;
+  width: 100%;
+  height: 145px;
+  padding-top: 0px;
+  margin-bottom: 775px;
+  position: absolute;
+  top: 0;
+  left: 0;
     z-index: 1;
     background-color: #f3f1ef;
     box-shadow: 0px 0.5px 20px #bcbcbc;
@@ -31,96 +30,96 @@ header {
 
 
 #headerWrap {
-	width: 90%;
-	margin: 0px auto;
+  width: 90%;
+  margin: 0px auto;
 
 }
 
 #logo {
-	position: absolute;
-	top: 0px;
-	left: 4%;
-	top: 5px;
-	z-index: 5;
+  position: absolute;
+  top: 0px;
+  left: 4%;
+  top: 5px;
+  z-index: 5;
 }
 
 #logo img {
-	width: 125px;
+  width: 125px;
     padding-top: 20px;
 }
 
 
 #navigation {
-	width: 910px;
-	padding: 7px;
-	float: right;
-	position: absolute;
-	top: 45px;
-	right: 2.5%;
-	z-index: 5;
+  width: 910px;
+  padding: 7px;
+  float: right;
+  position: absolute;
+  top: 45px;
+  right: 2.5%;
+  z-index: 5;
 }
 
 #navigation a {
     font-weight: bold;
     font-size: 17px;
-	color: #4c4c4c;
+  color: #4c4c4c;
     text-decoration: none;
 }
 
 #navigation a:hover {
-	color: grey;
-	opacity: 0.8;
+  color: grey;
+  opacity: 0.8;
 }
 
 #navigation img {
-	width: 15px;
+  width: 15px;
 }
 
 #navigation ol {
-	padding: 0px;
-	margin: 0px;
-	list-style-type: none;
+  padding: 0px;
+  margin: 0px;
+  list-style-type: none;
 }
 
 #navigation ol li {
-	font-family: 'Montserrat', sans-serif;
-	font-size: 16px;
-	margin-right: 45px;
-	color: white;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+  margin-right: 45px;
+  color: white;
 }
 
 
 .dropDownSymbol {
-	width: 10px;
+  width: 10px;
 }
 
 
 .dropbtn {
-	background-color:#f3f1ef;
-	padding: 15px;
-	border:none;
+  background-color:#f3f1ef;
+  padding: 15px;
+  border:none;
 }
 
 
 .dropdown {
-	display: inline-block;
+  display: inline-block;
 
 }
 
 .dropdown-content {
-	display: none;
-	position: absolute;
-	background-color: #fff;
+  display: none;
+  position: absolute;
+  background-color: #fff;
     box-shadow: 0px 0.5px 1px #bcbcbc;
-	min-width: 150px;
-	z-index: 1;
+  min-width: 150px;
+  z-index: 1;
 }
 
 .dropdown-content a {
-	color: white;
-	padding:12px 16px;
-	text-decoration: none;
-	display: block;
+  color: white;
+  padding:12px 16px;
+  text-decoration: none;
+  display: block;
 }
 
 .dropdown:hover .dropdown-content {display:block;}
@@ -136,7 +135,7 @@ header {
 
 .contact {
   padding: 10px;
-  margin-top:165;
+  margin-top:170px;
 }
 
 .contact h1{
@@ -178,7 +177,7 @@ form {
   top:50%;
   left:50%;
   background:#fff;
-  border-color: transparent;
+  border: transparent;
   color: #60A3BC;
   font-size: 20px;
   font-weight:  bold;
@@ -196,8 +195,13 @@ input
 {
 
   height:60px;
+  font-family: montserrat;
 
 
+}
+
+textarea {
+  font-family: montserrat;
 }
 
 
@@ -218,7 +222,7 @@ input
 
     background: rgb(96,163,188);
 background: linear-gradient(58deg, rgba(96,163,188,0.7) 2%, rgba(102,193,201,0.7) 97%);
-border-color: #fff;
+border: 1px solid #fff;
 
 
 }
@@ -255,7 +259,7 @@ border-color: #fff;
 form .submit
 {
   
-  border-color: none;
+  border: none;
   color: white;
   font-size: 20px;
   font-weight:  bold;
@@ -338,6 +342,3 @@ footer table tr td {
   padding-right: 10%;
   padding-top: 0.5%;
 }
-
-
-
