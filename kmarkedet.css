@@ -695,6 +695,80 @@ main {
 }
 
 
+/* MAP */
+
+svg {
+                background-image:url(images/kort2.svg);
+                background-repeat: no-repeat;
+                margin: 0px auto;
+            }
+
+            polygon {
+                fill: #B61209;
+            }
+
+            foreignObject {
+                position: relative; 
+            }
+
+            #tableColorBox {
+                margin: 0px auto;
+            }
+
+
+            .colorBox {
+                height: 22px;
+                padding: 10px;
+                padding-right: 15px;
+                padding-left: 15px;
+                margin-right: 10px;
+                border-radius: 50px;
+                float: left;
+            }
+
+            .colorBox h3 {
+                color: white; 
+                padding: 0px;
+                margin: 0px;
+            }
+
+            .pst {
+                visibility:visible;
+                fill: transparent;
+                stroke-width: 1.5px;
+                stroke: #B61209;
+            }
+
+            .pst:hover {
+                fill: #B61209;
+                stroke-width: 1.5px;
+                stroke: #858484;
+            }
+
+            .dot1 {
+                visibility:visible;
+                fill: #D4D4D4;
+                stroke-width: 1.5px;
+                stroke: #B61209;
+            }
+
+             .dot1:hover {
+                fill: #B61209;
+                stroke-width: 1.5px;
+                stroke: #B61209;
+            }
+
+            .dotContainer {
+                border: 1px solid #999999;
+                background: white;
+                border-radius: 10px;
+                padding:10px;
+                font-size: 11px;
+                position: absolute;
+                box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+                visibility: hidden;
+                transform: skewY(2deg);
+            }
 
 /* FOOTER */
 
