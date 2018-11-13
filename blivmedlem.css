@@ -6,7 +6,7 @@
 body {
 	background-color: #fff;
 	font-family: 'Montserrat', sans-serif;
-	font-color: #505050;
+	color: #505050;
 	overflow-x: hidden;
      margin: 0px;
 }
@@ -14,7 +14,7 @@ body {
 
 
 
-.main{
+main{
   background-color: #fff;
   height: 1000px;
    width: 100%;
@@ -204,7 +204,7 @@ input[type=checkbox] {
 form .submit
 {
   background-color:#60A3BC;
-  border-color: none;
+  border: none;
   color: white;
   font-size: 17px;
   font-weight:  bold;

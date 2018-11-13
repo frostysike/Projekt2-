@@ -5,7 +5,6 @@
  padding:0;
  text-align: center;
  font-family: 'Montserrat', sans-serif;
-
  }
 
 
@@ -123,34 +122,31 @@
 
 
 
-/* KONTAKT */
+/*KONTAKT*/
 
 .contact
 {
   padding: 10px;
-  margin-top:165;
-
-
-
+  margin-top:130px;
 }
 
-.contact h1{
+.contact h2 {
   font-size:24px;
   line-height:5px;
-  margin-top: 100px;
+  margin-top: 0px;
+  padding-top: 60px;
     margin-bottom: -30px;
   text-align: center;
+  color: white; 
 
 }
 
 form {
   margin-top:50px;
-
   padding:22px;
-  
+  font-family: montserrat;
 
 }
-
 
 ::placeholder { 
    color:    #fff;
@@ -168,15 +164,12 @@ form {
   color: #fff;
   font-size:20px;
   margin: 8px 0;
-
-
 }
 
 
 .box1 {
   width:450px;
   margin-left: 3%;
-
   top:50%;
   left:50%;
   background:#fff;
@@ -192,17 +185,18 @@ form {
   cursor: pointer;
   text-align: center;
   border-radius: 5px;
-
 }
 
 input
 {
-
   height:60px;
-
+  font-family: montserrat;
 
 }
 
+textarea {
+  font-family: montserrat;
+}
 
 
 .box1:hover
@@ -211,24 +205,21 @@ input
   cursor:pointer;
 }
 
-
 .width {
     width: 600px;
-    margin-top: 60px;
+    margin-top: 50px;
     margin-left: auto;
     margin-right: auto;
     border: 1px solid ;
 background: rgb(189,43,35);
 background: linear-gradient(55deg, rgba(189,43,35,0.7) 2%, rgba(255,74,64,0.7) 97%);
 border-color: #fff;
-
-
+  font-family: montserrat;
 }
 
 
 
 .alert2 {
-
   margin-top: 10px;
   padding:20px;
   background-color: green;
@@ -246,18 +237,9 @@ border-color: #fff;
   transition: 0.4s;
 }
 
-.form {
-  margin-top: -30px;
-  color: #fff;
-}
-
-
-
-
 form .submit
 {
-  
-  border-color: none;
+  border: none;
   color: white;
   font-size: 20px;
   font-weight:  bold;
@@ -268,7 +250,6 @@ form .submit
   text-align: center;
   padding-top: 10px;
   border-radius: 5px;
-
 }
 
 form .submit:hover
@@ -291,7 +272,7 @@ form .submit:hover
 #footerContainer {
 
 background-color: #60A3BC;
-  width: 102%;
+  width: 100%;
   padding-right: 7%;
   padding-left: 8%;
   position: relative;
@@ -302,10 +283,11 @@ background-color: #60A3BC;
   height: 20px;
   color: #FFF;
   font-weight: bold;
+  text-align: left;
 }
 
 #footerContainer table {
-  width: 105%;
+  width: 100%;
 }
 
 #footerContainer table tr td {
@@ -319,9 +301,9 @@ background-color: #60A3BC;
 }
 
 footer {
-  width: 102%;
-  padding-right: 8%;
-  padding-left: 8%;
+  width: 100%;
+  padding-right: 6%;
+  padding-left: 6%;
   position: relative;
   left: -1%;
   padding-top: 1%;
@@ -330,14 +312,15 @@ footer {
   background-color: #f3f1ef;
   color: #707070;
   height: 150px;
+  text-align: left;
 }
 
 footer table {
-  width: 100.5%;
+  width: 90%;
 }
 
 footer table tr td {
-  width: 39%;
+  width: 30%;
   padding-right: 10%;
     padding-top: 0.5%;
 }
