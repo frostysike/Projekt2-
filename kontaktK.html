@@ -1,7 +1,9 @@
-<html>
+<!DOCTYPE html>
+<html lang="da">
 <head>
-<title> Form </title>
-<link rel="stylesheet" type="text/css" href="kontaktK.css">
+<title> Kontakt </title>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" type="text/css" href="kontaktK.css">
   <link rel="stylesheet" href="blivfrivillig.css" >
   <link rel="stylesheet" href="program.css">
   <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
@@ -12,7 +14,7 @@
   <header>
       <div id="headerWrap">
         <div id="logo">
-          <a href="kmarkedet.html"><img src="images/kmlogo.png"></a>
+          <a href="kmarkedet.html"><img src="images/kmlogo.png" alt="Langeskov kræmmermarked logo"></a>
         </div>
 
 
@@ -27,7 +29,7 @@
 
                   <div class="dropdown">
                     <button class="dropbtn">
-                  <li><a href="#">For besøgende <img src="images/arrowunderside.png"></a></li>
+                  <li><a href="#">For besøgende <img src="images/arrowunderside.png" alt="Dropdown"></a></li>
                 </button>
 
                 <div class="dropdown-content">
@@ -39,16 +41,9 @@
 
               <div class="dropdown">
                 <button class="dropbtn">
-                  <li><a href="arrangementer.html">For kræmmere <img src="images/arrowunderside.png"></a></li>
+                  <li><a href="arrangementer.html">For kræmmere <img src="images/arrowunderside.png" alt="Dropdown"></a></li>
                 </button>
                 <div class="dropdown-content">
-
-
-
-                  <a href="#" class="popup" onclick="myFunction()" Bestil stadeplads
-                    <span class="popuptext" id="myPopup">Bestil Stadeplads</span>
-                </a>
-
 
                   <a href="information.html">Generel info</a>
 
@@ -57,7 +52,7 @@
 
                 <div class="dropdown">
                   <button class="dropbtn">
-                  <li><a href="#">Frivillig <img src="images/arrowunderside.png"></a></li></a></li>
+                  <li><a href="#">Frivillig <img src="images/arrowunderside.png" alt="Dropdown"></a></li>
                 </button>
                 <div class="dropdown-content">
                   <a href="blivfrivillig.html">Bliv frivillig</a>
@@ -82,47 +77,47 @@
 
 <div class="width">
 <div class="form">
-  <h1> Henvendelse til Kræmmermarked </h1>
+  <h2> Henvendelse til Kræmmermarked </h2>
   <form id="form" method="post">
     <input name="name" type="text" class="box" placeholder="Navn her:" required>
     <br>
-    <input name="Email" type="Email" class="box" placeholder="Email:" required>
+    <input name="Email" type="Email" class="box" placeholder="E-mail:" required>
     <br>
-    <textarea style="max-width: 550px; line-height: 30px;" name="message" class="box" placeholder="besked:
-" row="5"
-    required></textarea>
+    <textarea style="max-width: 550px; line-height: 30px;" name="message" class="box" placeholder="Besked:
+" rows="5" required></textarea>
 
 
 <br>
 
-      <input type="submit" class="box1" onClick="return confirm('Besked modtaget, vi vender tilbage!');"></a>
+      <input type="submit" value="Send" class="box1" onClick="return confirm('Besked modtaget, vi vender tilbage!');">
+    </form>
+  </div></div>
 
 <br>
 
 
 
-</div>
 </div>
 
     <div style="width:100%; position: fixed; bottom: 0;">
     <div id="footerContainer">
-  <table>
+  <table style="position: relative; right: 25px;">
     <tr>
       <td>Langeskov borgerforening</td>
       <td>© Copyright. All rights reserved</td>
       <td style="width: 8%;">Følg os på:</td>
-      <td style="width: 6%;"><a href="facebookside.dk"><img src="images/facebook.png"></a></td>
+      <td style="width: 6%;"><a href="facebookside.dk"><img src="images/facebook.png" alt="Facebook"></a></td>
     </tr>
   </table>
 </div>
 
 <footer>
-  <table>
+  <table style="position: relative; right: 25px;">
     <tr style="font-weight: bold;">
       <td>For besøgende</td>
       <td>For kræmmere</td>
       <td>Frivillig</td>
-      <td style="text-align: right;">Kontakt</td>
+      <td style="margin-right: 0%; float: right;">Kontakt</td>
     </tr>
     <tr>
       <td>Program</td>
