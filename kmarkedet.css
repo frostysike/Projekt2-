@@ -179,7 +179,7 @@ main {
 .introduction {
 	width: 100%;
 	height: 1010px;
-	font-color: #FFF;
+	color: #FFF;
 	background-color: black;
 	position: absolute;
 	left: 0;
@@ -212,7 +212,7 @@ main {
   margin: 0 2.5%;
   padding: 20px;
   width:20%;
-  box sizing: border-box;
+  box-sizing: border-box;
   border-radius: 20px;
 }
 
@@ -367,44 +367,12 @@ main {
 	padding-left: 8%;
 	position: relative;
 	left: -2%;
-	padding-top: 1%;
-	padding-bottom: 2%;
+	padding-top: 2%;
+	padding-bottom: 1%;
 	margin: 0px auto;
 }
 
-.salestag {
-	width: 80px;
-	height: 35px;
-	border-radius: 50%;
-	background-color: #60A3BC;
-	text-align: center;
-	padding-top: 15px;
-	color: #FFF;
-	font-weight: bold;
-	position: relative;
-	top: 35px;
-	left: 365px;
-	z-index: 99;
-}
 
-.threecolumns {
-	width: 24.5%;
-	margin-right: 10.2%;
-	padding-right: 2%;
-	float: left;
-	text-align: center;
-}
-
-.threecolumns img {
-	margin: 0px auto;
-	border-radius: 3%;
-	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
-}
-
-.threecolumns p h3 {
-	padding-right: 10%;
-	padding-left: 10%;
-}
 
 .twocolumns {
 	width: 42.5%;
@@ -415,13 +383,6 @@ main {
   line-height: 22px;
 }
 
-.twocolumns img {
-	width: 80%;
-	height: 80%;
-	margin: 0px auto;
-	border-radius: 3%;
-	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
-}
 
 .twocolumns p {
 	width: 653px;
@@ -430,6 +391,9 @@ main {
 .twocolumns h3 {
 	margin-left: 0px;
 }
+
+
+/* SPONSORER */
 
 #third table {
 	border-spacing: 100px;
@@ -449,8 +413,6 @@ main {
 	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
 }
 
-
-
 .container {
   width: 100%;
   position: absolute;
@@ -460,7 +422,6 @@ main {
   text-align: center;
   color: black;
 }
-
 
 .count {
   margin: 40px 0;
@@ -482,8 +443,6 @@ main {
   font-size: 20px;
   margin-top: 14px;
 }
-
-
 
 
 /* Slideshow container */
@@ -530,7 +489,6 @@ main {
     margin: 0 auto;
   padding-left:5.5%;
     padding-top: 60px;
-
 }
 
 
@@ -622,39 +580,10 @@ main {
     bottom: 125%;
     left: 50%;
     margin-left: -80px;
-
 }
 
-/* Popup arrow */
-.popup .popuptext::after {
-    content: "";
-    position: absolute;
-    top: 100%;
-    left: 50%;
-    margin-left: -5px;
-    border-width: 5px;
-    border-style: solid;
-    border-color: #555 transparent transparent transparent;
-}
 
-/* Toggle this class - hide and show the popup */
-.popup .show {
-    visibility: visible;
-    -webkit-animation: fadeIn 1s;
-    animation: fadeIn 1s;
-}
-
-/* Add animation (fade in the popup) */
-@-webkit-keyframes fadeIn {
-    from {opacity: 0;}
-    to {opacity: 1;}
-}
-
-@keyframes fadeIn {
-    from {opacity: 0;}
-    to {opacity:1 ;}
-}
-
+/* COUNTDOWN */
 
 .cdown {
   width: 100%;
@@ -664,7 +593,6 @@ main {
   transform: translate(-50%, -50%);
   text-align: center;
   color: white;
-
 }
 
 
@@ -683,8 +611,7 @@ main {
   overflow: hidden;
 }
 
-.countd span{
-
+.countd span {
   display: block;
   font-size: 25px;
   margin-top: 14px;
@@ -771,6 +698,8 @@ svg {
                 transform: skewY(2deg);
             }
 
+
+
 /* FOOTER */
 
 #footerContainer {
@@ -821,5 +750,5 @@ footer table {
 footer table tr td {
   width: 39%;
   padding-right: 10%;
-    padding-top: 0.5%;
+  padding-top: 0.5%;
 }
